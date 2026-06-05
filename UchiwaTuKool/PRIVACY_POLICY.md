@@ -133,7 +133,7 @@ We may update this policy. Material changes will be announced in-app or on the s
 | | |
 |---|---|
 | 運営者 / Operator | Shirase Lab |
-| ウェブサイト / Website | https://www.shirase-lab.com/ |
+| ウェブサイト / Website | https://x.com/uchiwa_tu_kool |
 | お問い合わせ / Contact | uchiwa.tu.kool@gmail.com |
 
 ---
