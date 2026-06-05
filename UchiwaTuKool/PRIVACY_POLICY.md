@@ -134,7 +134,7 @@ We may update this policy. Material changes will be announced in-app or on the s
 |---|---|
 | 運営者 / Operator | Shirase Lab |
 | ウェブサイト / Website | https://www.shirase-lab.com/ |
-| お問い合わせ / Contact | https://www.shirase-lab.com/inquiry-form/（または GitHub Issues） |
+| お問い合わせ / Contact | uchiwa.tu.kool@gmail.com |
 
 ---
 
