@@ -1,6 +1,6 @@
 # 利用規約 / Terms of Use
 
-**最終更新日 / Last updated: 2026-06-04**
+**最終更新日 / Last updated: 2026-06-08**
 
 Shirase Lab（以下「当方」）は、モバイルアプリケーション「うちわ・ツ・クール」（以下「本アプリ」）の利用条件を以下のとおり定めます。本アプリをダウンロード、インストール、または利用された時点で、本規約に同意したものとみなします。
 
@@ -94,6 +94,11 @@ Refund requests are governed by the respective store policies. Please contact th
 「広告を消す」アイテムは買い切りの非消費型アイテムであり、同一アカウント・同一プラットフォームで復元購入が可能です。クロスプラットフォーム（Android ↔ iOS）の権利移行は保証されません。
 
 The "Remove Ads" item is a one-time non-consumable product. Restore purchases is supported within the same account/platform. Cross-platform entitlement (Android ↔ iOS) is not guaranteed.
+
+### 6-4. 応援チップ（任意の投げ銭）/ Optional Support Tips
+「応援チップ」は開発を応援するための任意の消費型アイテムです。購入により広告解除や追加機能の解放は行われません。何度でも購入できますが、購入後の復元・払い戻しは原則として行えません（各ストア規約に従います）。
+
+"Support Tips" are optional consumable items intended to support development. Purchasing them does **not** unlock additional features or remove ads. Tips can be purchased multiple times but are non-restorable; refunds follow each store's policy.
 
 ---
 
