@@ -16,4 +16,4 @@
 
 ## リンク
 - プライバシーポリシー: https://github.com/shirase-lab/PrivacyPolicies/blob/main/UchiwaTuKool/PRIVACY_POLICY.md
-- 利用規約: （GitHubのURL）
+- 利用規約: https://github.com/shirase-lab/PrivacyPolicies/blob/main/UchiwaTuKool/TERMS_OF_USE.md
