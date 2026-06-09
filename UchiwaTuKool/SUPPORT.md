@@ -15,5 +15,5 @@
 - 普通紙A3を選択しちょっと小さめをOFFにして印刷してください。
 
 ## リンク
-- プライバシーポリシー: （GitHubのURL）
+- プライバシーポリシー: https://github.com/shirase-lab/PrivacyPolicies/blob/main/UchiwaTuKool/PRIVACY_POLICY.md
 - 利用規約: （GitHubのURL）
