@@ -169,8 +169,8 @@ These Terms are governed by the **laws of Japan**. Any dispute shall be subject 
 | | |
 |---|---|
 | 運営者 / Operator | Shirase Lab |
-| ウェブサイト / Website | https://www.shirase-lab.com/ |
-| お問い合わせ / Contact | https://www.shirase-lab.com/inquiry-form/ （または GitHub Issues） |
+| ウェブサイト / Website | https://github.com/shirase-lab/PrivacyPolicies/blob/main/UchiwaTuKool/SUPPORT.md |
+| お問い合わせ / Contact | uchiwa.tu.kool@gmail.com |
 
 ---
 
