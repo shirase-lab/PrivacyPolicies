@@ -1,10 +1,10 @@
 # プライバシーポリシー / Privacy Policy
 
-**最終更新日 / Last updated: 2026-06-08**
+**最終更新日 / Last updated: 2026-06-11**
 
-Shirase Lab（以下「当方」）は、モバイルアプリケーション「うちわ・ツ・クール」（以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。
+Shirase Lab（以下「当方」）は、モバイルアプリケーション「推しミテ！」（以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。
 
-Shirase Lab ("we", "us") provides this Privacy Policy describing how we handle information in the mobile application "うちわ・ツ・クール" / "UchiwaTukool" (the "App").
+Shirase Lab ("we", "us") provides this Privacy Policy describing how we handle information in the mobile application "推しミテ！" (Oshimite!) (the "App").
 
 ---
 
@@ -138,8 +138,8 @@ We may update this policy. Material changes will be announced in-app or on the s
 | | |
 |---|---|
 | 運営者 / Operator | Shirase Lab |
-| ウェブサイト / Website | https://x.com/uchiwa_tu_kool |
-| お問い合わせ / Contact | uchiwa.tu.kool@gmail.com |
+| ウェブサイト / Website | https://x.com/oshimite_app |
+| お問い合わせ / Contact | https://x.com/oshimite_app |
 
 ---
 

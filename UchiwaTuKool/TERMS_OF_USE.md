@@ -1,10 +1,10 @@
 # 利用規約 / Terms of Use
 
-**最終更新日 / Last updated: 2026-06-08**
+**最終更新日 / Last updated: 2026-06-11**
 
-Shirase Lab（以下「当方」）は、モバイルアプリケーション「うちわ・ツ・クール」（以下「本アプリ」）の利用条件を以下のとおり定めます。本アプリをダウンロード、インストール、または利用された時点で、本規約に同意したものとみなします。
+Shirase Lab（以下「当方」）は、モバイルアプリケーション「推しミテ！」（以下「本アプリ」）の利用条件を以下のとおり定めます。本アプリをダウンロード、インストール、または利用された時点で、本規約に同意したものとみなします。
 
-Shirase Lab ("we", "us") sets forth the following Terms of Use ("Terms") for the mobile application "うちわ・ツ・クール" / "UchiwaTukool" (the "App"). By downloading, installing, or using the App, you agree to be bound by these Terms.
+Shirase Lab ("we", "us") sets forth the following Terms of Use ("Terms") for the mobile application "推しミテ！" (Oshimite!) (the "App"). By downloading, installing, or using the App, you agree to be bound by these Terms.
 
 ---
 
@@ -169,8 +169,8 @@ These Terms are governed by the **laws of Japan**. Any dispute shall be subject 
 | | |
 |---|---|
 | 運営者 / Operator | Shirase Lab |
-| ウェブサイト / Website | https://github.com/shirase-lab/PrivacyPolicies/blob/main/UchiwaTuKool/SUPPORT.md |
-| お問い合わせ / Contact | uchiwa.tu.kool@gmail.com |
+| ウェブサイト / Website | https://x.com/oshimite_app |
+| お問い合わせ / Contact | https://x.com/oshimite_app |
 
 ---
 
