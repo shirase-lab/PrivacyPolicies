@@ -18,13 +18,9 @@ We may collect the following information for service operation and improvement:
 - うちわデザインデータ（テキスト本文、画像、レイアウト等）
 - アプリ設定情報
 
-これらは原則として利用者の端末内にのみ保存され、当方サーバには送信されません。
+これらは利用者の端末内にのみ保存され、当方サーバには送信されません。
 
-ただし、利用者が設定画面で明示的にオプトインした場合に限り、**デザインの匿名化された統計的特徴**（使用色のヒストグラム、使用フォント名、使用機能の利用頻度、要素の配置パターンのメタ情報等）を、テンプレート・パレットの改善および利用者間共有素材の作成のために当方サーバへ送信することがあります。**テキスト本文・画像実体・端末識別子等の個人特定につながる情報は含まれません**。オプトインはいつでも設定画面から解除可能で、解除後は新規送信を停止します。
-
-User-created content is stored locally on the device and is **not transmitted to our servers by default**.
-
-If the user **explicitly opts in** via the settings screen, **anonymized statistical features of designs** (color histograms, font names, feature usage frequency, layout metadata) may be sent to our servers for template/palette improvement and curated public content. **Text content, raw images, and device identifiers are never included.** Opt-in can be revoked at any time, after which no further transmission occurs.
+User-created content is stored locally on the device and is **not transmitted to our servers**.
 
 ### 1-2. 自動的に取得される情報 / Automatically collected
 - 広告 ID (Android: AAID / iOS: IDFA。利用者が許可した場合のみ)
@@ -43,9 +39,8 @@ Advertising IDs (where consented), in-app behavior logs, crash reports, and devi
 - アプリの安定性向上およびバグ修正
 - 新機能の検討・改善
 - 利用状況の統計的分析
-- （オプトイン時のみ）デザイン傾向の集計分析、および利用者間で共有可能なテンプレート・パレット・配色プリセットの作成
 
-Ad delivery and optimization, fraud detection, stability improvement, feature development, statistical analytics, and — only when the user opts in — aggregated analysis of design trends and curation of shareable templates / palettes / color presets.
+Ad delivery and optimization, fraud detection, stability improvement, feature development, and statistical analytics.
 
 ---
 
