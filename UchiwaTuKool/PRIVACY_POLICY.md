@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy
 
-**最終更新日 / Last updated: 2026-06-11**
+**最終更新日 / Last updated: 2026-06-20**
 
 Shirase Lab（以下「当方」）は、モバイルアプリケーション「推しミテ！」（以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。
 
@@ -21,6 +21,12 @@ We may collect the following information for service operation and improvement:
 これらは利用者の端末内にのみ保存され、当方サーバには送信されません。
 
 User-created content is stored locally on the device and is **not transmitted to our servers**.
+
+### 1-1-2. 制作タイムラプス動画 / Timelapse video
+
+本アプリの「録画（タイムラプス）」機能で生成される制作過程の動画（MP4）は、**端末内でのみ生成・保存**され、当方サーバには送信されません。動画を SNS 等で共有する場合は、**OS の共有シートを通じて利用者自身が送信先を選ぶ**もので、当方サーバを経由しません。動画を端末の写真ライブラリへ保存する際は、OS の写真追加権限を求めます。
+
+The timelapse video (MP4) created by the in-app recording feature is generated and stored **only on your device** and is not sent to our servers. Sharing is performed via the OS share sheet at your own choice (not through our servers). Saving to the device photo library requests the OS add-to-photos permission.
 
 ### 1-2. 自動的に取得される情報 / Automatically collected
 - 広告 ID (Android: AAID / iOS: IDFA。利用者が許可した場合のみ)

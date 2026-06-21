@@ -1,6 +1,6 @@
 # 利用規約 / Terms of Use
 
-**最終更新日 / Last updated: 2026-06-11**
+**最終更新日 / Last updated: 2026-06-20**
 
 Shirase Lab（以下「当方」）は、モバイルアプリケーション「推しミテ！」（以下「本アプリ」）の利用条件を以下のとおり定めます。本アプリをダウンロード、インストール、または利用された時点で、本規約に同意したものとみなします。
 
@@ -49,6 +49,11 @@ Copyright in the designs you create ("User Content") belongs to you.
 - 第三者の氏名・名称・標章
 
 You must ensure your User Content does not infringe any third-party rights, including photos, illustrations, logos of public figures or characters, and trademarks. **You are solely responsible** for such use.
+
+### 4-2-1. 制作タイムラプス動画の共有 / Sharing timelapse videos
+「録画（タイムラプス）」機能で作成した制作過程の動画を SNS 等へ共有する場合も、写り込む文字・画像・デザインに関する**著作権・商標権・肖像権・パブリシティ権・プライバシーは利用者自身の責任**となります。必要なマスキング（顔・個人情報・第三者の権利物の隠蔽）は**利用者が行う**ものとし、当方は共有された動画について一切の責任を負いません。
+
+When you share a timelapse video created with the recording feature (e.g., to social media), you remain **solely responsible** for any copyright, trademark, image, publicity, or privacy rights in the text, images, and designs it contains. Any necessary masking (faces, personal information, third-party materials) is **your responsibility**, and we bear no responsibility for shared videos.
 
 ### 4-3. 利用者の表明保証 / Representations
 利用者は、ユーザコンテンツについて必要な権利・許諾を有していることを表明し保証します。
