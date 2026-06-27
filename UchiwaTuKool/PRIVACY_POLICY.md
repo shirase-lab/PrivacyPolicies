@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy
 
-**最終更新日 / Last updated: 2026-06-20**
+**最終更新日 / Last updated: 2026-06-27**
 
 Shirase Lab（以下「当方」）は、モバイルアプリケーション「推しミテ！」（以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。
 
@@ -27,6 +27,12 @@ User-created content is stored locally on the device and is **not transmitted to
 本アプリの「録画（タイムラプス）」機能で生成される制作過程の動画（MP4）は、**端末内でのみ生成・保存**され、当方サーバには送信されません。動画を SNS 等で共有する場合は、**OS の共有シートを通じて利用者自身が送信先を選ぶ**もので、当方サーバを経由しません。動画を端末の写真ライブラリへ保存する際は、OS の写真追加権限を求めます。
 
 The timelapse video (MP4) created by the in-app recording feature is generated and stored **only on your device** and is not sent to our servers. Sharing is performed via the OS share sheet at your own choice (not through our servers). Saving to the device photo library requests the OS add-to-photos permission.
+
+### 1-1-3. うちわ画像の保存 / Saving the uchiwa image
+
+本アプリの「画像を保存」機能で書き出すうちわの画像（PNG）は、**端末内でのみ生成**され、当方サーバには送信されません。画像を端末の写真ライブラリ（iOS の写真／Android のギャラリー）へ保存する際は、OS の写真追加権限を求めます。権限が無い場合や非対応環境では、OS の共有シートを通じて利用者自身が保存先を選びます。
+
+The uchiwa image (PNG) exported by the in-app "Save image" feature is generated **only on your device** and is not sent to our servers. Saving to the device photo library (iOS Photos / Android Gallery) requests the OS add-to-photos permission. If the permission is unavailable or unsupported, you choose the destination yourself via the OS share sheet.
 
 ### 1-2. 自動的に取得される情報 / Automatically collected
 - 広告 ID (Android: AAID / iOS: IDFA。利用者が許可した場合のみ)
@@ -66,6 +72,12 @@ The App uses the following third-party services. Refer to each provider's policy
 これら以外の第三者には、法令に基づく場合を除き、個人を特定できる情報を提供しません。
 
 We do not provide personally identifiable information to other third parties except as required by law.
+
+### 3-1. オンデバイス画像処理（背景の自動切り抜き）/ On-device image processing (auto background removal)
+
+「画像の背景を自動で切り抜く」機能は、**端末内（オンデバイス）の機械学習フレームワーク**で処理します。Android では Google ML Kit（被写体セグメンテーション）、iOS では Apple Vision を使用します。**処理する画像は端末内で完結し、当方サーバや Google / Apple のサーバへ送信されません**（ML Kit は被写体抽出用のモデルを端末へダウンロードして利用しますが、利用者の画像がアップロードされることはありません）。
+
+The automatic background-removal feature runs **entirely on-device** using on-device machine-learning frameworks: Google ML Kit (Subject Segmentation) on Android and Apple Vision on iOS. **The images you process stay on your device and are not sent to our servers or to Google/Apple** (ML Kit downloads the segmentation model to the device, but your images are never uploaded).
 
 ---
 
