@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy
 
-**最終更新日 / Last updated: 2026-06-27**
+**最終更新日 / Last updated: 2026-07-18**
 
 Shirase Lab（以下「当方」）は、モバイルアプリケーション「推しミテ！」（以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。
 
@@ -33,6 +33,24 @@ The timelapse video (MP4) created by the in-app recording feature is generated a
 本アプリの「画像を保存」機能で書き出すうちわの画像（PNG）は、**端末内でのみ生成**され、当方サーバには送信されません。画像を端末の写真ライブラリ（iOS の写真／Android のギャラリー）へ保存する際は、OS の写真追加権限を求めます。権限が無い場合や非対応環境では、OS の共有シートを通じて利用者自身が保存先を選びます。
 
 The uchiwa image (PNG) exported by the in-app "Save image" feature is generated **only on your device** and is not sent to our servers. Saving to the device photo library (iOS Photos / Android Gallery) requests the OS add-to-photos permission. If the permission is unavailable or unsupported, you choose the destination yourself via the OS share sheet.
+
+### 1-1-4. うちわファイルの取り込み / Importing uchiwa files
+
+本アプリで「開く」またはほかのアプリ・ファイルアプリからうちわファイル（`.uchiwa`）を受け取ると、そのファイルは**利用者の端末内のアプリ管理フォルダ（アプリ内ライブラリ）にコピーして保存**され、アプリ内のギャラリーに表示されます。取り込んだファイルは**端末内でのみ扱われ、当方サーバには送信されません**。取り込みに OS の追加権限は不要です（利用者が「開く」で選ぶ、または OS がアプリに渡したファイルのみを対象とします）。
+
+When you "Open" a uchiwa file (`.uchiwa`), or receive one from another app / the Files app, the file is **copied and stored in the app's managed folder (in-app library) on your device** and shown in the in-app gallery. Imported files are handled **only on your device** and are not sent to our servers. No additional OS permission is required (only files you choose via "Open" or that the OS hands to the app are processed).
+
+### 1-1-5. ライブ前リマインダー（ローカル通知）/ Pre-live reminder (local notification)
+
+本アプリの「ライブ前リマインダー」機能では、利用者が登録した**参戦予定日**とメモを**端末内にのみ保存**し、その日の数日前に「うちわ制作」をうながす**ローカル通知**を出します。通知はすべて**端末内で完結**し、当方サーバや FCM 等の外部サーバには**送信されません**（参戦日・メモが外部へ送られることはありません）。通知を出すには OS の通知許可が必要で、iOS では必須、Android 13 以降では通知権限（`POST_NOTIFICATIONS`）を求めます。許可しなくても日付の登録自体は可能です（通知が出ないだけ）。
+
+The "pre-live reminder" feature stores the **event dates** and notes you register **only on your device** and shows **local notifications** a few days before, prompting you to make your uchiwa. Everything is handled **on-device**; no data (dates/notes) is sent to our servers or any external server such as FCM. Showing notifications requires OS notification permission (required on iOS; on Android 13+ the `POST_NOTIFICATIONS` permission is requested). You can still register dates without granting permission (only the notification will not appear).
+
+### 1-1-6. アップデート通知（更新情報の取得）/ Update notification (version info fetch)
+
+本アプリは起動時に、公開ページ `https://shirase-lab.github.io/updates/` にある**公開のバージョン情報ファイル（JSON）を読み取り**、新しいバージョンの有無や更新内容を通知します。この通信は**公開ファイルの取得（HTTPS GET）のみ**で、**利用者の個人情報・端末内のうちわデータ・識別子等は送信しません**（当方サーバもありません。配信は GitHub Pages）。取得に失敗（オフライン等）しても通知を出さないだけで、アプリの利用に支障はありません。「アップデート」ボタンを押した場合は、OS のブラウザで各ストアのページを開きます。
+
+At startup the App **reads a public version-information file (JSON)** hosted at `https://shirase-lab.github.io/updates/` to notify you of new versions and what's changed. This is a **read-only public fetch (HTTPS GET)**; **no personal information, on-device uchiwa data, or identifiers are transmitted** (we operate no server; the file is served by GitHub Pages). If the fetch fails (e.g., offline), no notification is shown and the App works normally. Tapping "Update" opens the relevant store page in the OS browser.
 
 ### 1-2. 自動的に取得される情報 / Automatically collected
 - 広告 ID (Android: AAID / iOS: IDFA。利用者が許可した場合のみ)
