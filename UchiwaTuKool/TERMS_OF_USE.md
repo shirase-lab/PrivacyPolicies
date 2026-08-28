@@ -174,8 +174,8 @@ These Terms are governed by the **laws of Japan**. Any dispute shall be subject 
 | | |
 |---|---|
 | 運営者 / Operator | Shirase Lab |
-| ウェブサイト / Website | https://x.com/oshimite_app |
-| お問い合わせ / Contact | https://x.com/oshimite_app |
+| ウェブサイト / Website | https://oshimite.jp |
+| お問い合わせ / Contact | uchiwa.tu.kool@gmail.com |
 
 ---
 
