@@ -1,6 +1,6 @@
 # 利用規約 / Terms of Use
 
-**最終更新日 / Last updated: 2026-06-20**
+**最終更新日 / Last updated: 2026-08-22**
 
 Shirase Lab（以下「当方」）は、モバイルアプリケーション「推しミテ！」（以下「本アプリ」）の利用条件を以下のとおり定めます。本アプリをダウンロード、インストール、または利用された時点で、本規約に同意したものとみなします。
 
@@ -31,6 +31,18 @@ The App is intended for users aged 13 and over. Minors must obtain consent from 
 当方は、利用者に対し、本規約の遵守を条件として、本アプリを個人的・非商用目的で利用する非独占的・譲渡不可・取消可能なライセンスを付与します。本アプリのソースコード・素材・商標は当方または正当な権利者に帰属します。
 
 We grant you a non-exclusive, non-transferable, revocable license to use the App for personal, non-commercial purposes. All source code, assets, and trademarks are owned by us or our licensors.
+
+### 3-1. 配信コンテンツ（テンプレート／スタンプ／ステッカー）/ Distributed Content (Templates, Stamps, Stickers)
+
+本アプリは、当方が制作・公開するうちわの**テンプレート（下書きデザイン）・スタンプ（SVG）・ステッカー（PNG）**をアプリ内から取得・利用できる機能を提供することがあります。これらは**当方制作のみ**であり、利用者が投稿・アップロードする仕組みはありません。編集して個人的・非商用のうちわ制作に利用するための素材として提供されるもので、含まれる汎用文言・装飾等の権利は当方または正当な権利者に帰属します。テンプレートに推しの名前等を入力して完成させたうちわ（＝利用者コンテンツ）に関する第三者の権利（商標・肖像権・パブリシティ権等）の尊重は、第 4 条のとおり**利用者自身の責任**です。当方は配信コンテンツの提供を予告なく変更・停止することがあります。
+
+The App may let you fetch and use **templates (draft designs), stamps (SVG), and stickers (PNG)** for uchiwa that we author and publish. They are **author-provided only**; there is no user submission or upload. They are offered as materials to edit for your personal, non-commercial uchiwa; rights in the generic phrases and decorations they contain belong to us or our licensors. Once you fill in a template (e.g., with a performer's name), respecting third-party rights (trademark, image, publicity, etc.) in the resulting user content is **your responsibility** as set out in Section 4. We may change or discontinue distributed content without notice.
+
+### 3-2. おすすめフォントのインストール / Installing Recommended Fonts
+
+本アプリは、**再配布が許諾されたフォント**をアプリ内の「インストール」から端末へ導入できる機能を提供することがあります。各フォントの著作権は各制作者に帰属し、**利用条件は各フォントのライセンス（SIL OFL 等）に従います**。当方はフォントを再配布する立場として配布元の条件を遵守しますが、**利用者による利用（商用利用の可否・改変の可否等）については各ライセンスの範囲内で行ってください**。再配布が許諾されていない書体については、当方はリンクのみを表示し、取得・利用は配布元の条件に従って利用者自身が行うものとします。
+
+The App may let you install **fonts whose redistribution is permitted** with an in-app "Install" action. Copyright in each font belongs to its author, and **your use is governed by that font's own license (e.g., SIL OFL)**. We comply with the redistribution terms as a redistributor, but **your use (including whether commercial use or modification is allowed) must stay within each license**. For fonts we may not redistribute, the App only shows a link; obtaining and using them is your own responsibility under the original terms.
 
 ---
 
