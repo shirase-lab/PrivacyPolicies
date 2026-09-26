@@ -1,10 +1,10 @@
 # プライバシーポリシー / Privacy Policy
 
-**最終更新日 / Last updated: 2026-09-21**
+**最終更新日 / Last updated: 2026-09-26**
 
-Shirase Lab（以下「当方」）は、モバイルアプリケーション「ヴァナギア」（パッケージ名: `com.shiraselab.vana_gear`、以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。本アプリはファイナルファンタジーXI（FFXI）の装備管理・ダメージ計算などを支援する非公式のファンツールであり、株式会社スクウェア・エニックスとは一切関係ありません。
+Shirase Lab（以下「当方」）は、モバイルアプリケーション「ヴァナギア」（Android パッケージ名: `com.shiraselab.vana_gear` / iOS バンドル ID: `com.shiraselab.vana-gear`、以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。本アプリはファイナルファンタジーXI（FFXI）の装備管理・ダメージ計算などを支援する非公式のファンツールであり、株式会社スクウェア・エニックスとは一切関係ありません。
 
-Shirase Lab ("we", "us") provides this Privacy Policy describing how we handle information in the mobile application "VanaGear" (package name: `com.shiraselab.vana_gear`, the "App"). The App is an unofficial fan tool for gear management and damage calculation for FINAL FANTASY XI (FFXI) and is not affiliated with SQUARE ENIX.
+Shirase Lab ("we", "us") provides this Privacy Policy describing how we handle information in the mobile application "VanaGear" (Android package name: `com.shiraselab.vana_gear`; iOS bundle ID: `com.shiraselab.vana-gear`, the "App"). The App is an unofficial fan tool for gear management and damage calculation for FINAL FANTASY XI (FFXI) and is not affiliated with SQUARE ENIX.
 
 ---
 
@@ -16,9 +16,13 @@ Shirase Lab ("we", "us") provides this Privacy Policy describing how we handle i
 Gear sets, inventory, player/job settings and app preferences are stored only on your device and are not transmitted externally. With the backup feature, you can export/import this data as files yourself.
 
 ### 1-2. アカウント情報 / Account information (Firebase Authentication)
-「みんなの装備」（共有機能）のため、匿名認証または Google サインインを行います。当方はユーザーを識別する**識別子（UID）**を利用します。Google サインイン利用時は認証が Google／Firebase により処理され、メールアドレスが認証基盤に送信されます。**当方は利用者の氏名を保存しません。**
+「みんなの装備」（共有機能）のため、匿名認証、Google サインイン、または Sign in with Apple（iOS 版のみ）を行います。当方はユーザーを識別する**識別子（UID）**を利用します。Google サインイン利用時は認証が Google／Firebase により、Sign in with Apple 利用時は Apple／Firebase により処理され、メールアドレスが認証基盤に送信されます。Sign in with Apple では「メールアドレスを非公開」を選択でき、その場合は Apple の転送用アドレスが使われます。**当方は利用者の氏名を保存しません。**
 
-For the "Community Gear" feature, the App uses anonymous authentication or Google Sign-In. We use a **user identifier (UID)**. With Google Sign-In, authentication is handled by Google/Firebase and your email address is transmitted to the authentication backend. **We do not store your name.**
+ログインしたアカウントは、本アプリ内の「設定」からいつでも削除できます。
+
+For the "Community Gear" feature, the App uses anonymous authentication, Google Sign-In, or Sign in with Apple (iOS only). We use a **user identifier (UID)**. Google Sign-In is handled by Google/Firebase and Sign in with Apple by Apple/Firebase; your email address is transmitted to the authentication backend. Sign in with Apple lets you choose "Hide My Email", in which case Apple's private relay address is used. **We do not store your name.**
+
+You can delete your account at any time from Settings in the App.
 
 ### 1-3. みんなの装備（公開データ）/ Community Gear (public data)
 利用者が投稿した場合、以下がサーバー（Google Cloud Firestore）に保存され、**他の利用者に公開表示**されます。氏名・メールアドレスは含まれません。
@@ -32,10 +36,10 @@ When you post, the following is stored on the server (Google Cloud Firestore) an
 
 For ad delivery, the **advertising ID** and device information may be collected and used by Google and its advertising partners.
 
-### 1-5. アプリ内購入 / In-app purchases (Google Play Billing)
-寄付・広告除去の購入は **Google Play が決済を処理**し、当方はクレジットカード等の決済情報を取得・保持しません。
+### 1-5. アプリ内購入 / In-app purchases (Google Play Billing / App Store)
+寄付・広告除去の購入は **Google Play（Android）または App Store（iOS）が決済を処理**し、当方はクレジットカード等の決済情報を取得・保持しません。
 
-Donations and the ad-removal purchase are **processed by Google Play**; we do not collect or store payment details.
+Donations and the ad-removal purchase are **processed by Google Play (Android) or the App Store (iOS)**; we do not collect or store payment details.
 
 ### 1-6. アプリ設定の取得 / App configuration (Firebase Remote Config)
 アプリ動作設定値の取得に Firebase Remote Config を利用します。個人を特定する情報は含まれません。
@@ -58,11 +62,12 @@ Firebase Remote Config is used to fetch configuration values and contains no per
 ---
 
 ## 3. 第三者提供・外部送信 / Third Parties
-本アプリは以下の Google 提供サービスを利用します。各社の取扱いは各社のポリシーに従います。
-The App uses the following Google services, governed by their respective policies:
+本アプリは以下のサービスを利用します。各社の取扱いは各社のポリシーに従います。
+The App uses the following services, governed by their respective policies:
 - Firebase Authentication / Cloud Firestore / Remote Config — https://firebase.google.com/support/privacy
 - Google AdMob — https://policies.google.com/technologies/ads
-- Google Play Billing — https://policies.google.com/privacy
+- Google Play Billing（Android）— https://policies.google.com/privacy
+- Sign in with Apple / App Store 課金（iOS）— https://www.apple.com/legal/privacy/
 
 広告ID以外の利用者データを、当方が第三者に販売・提供することはありません。
 We do not sell or share user data (other than the advertising ID used for ads) with third parties.
@@ -70,20 +75,26 @@ We do not sell or share user data (other than the advertising ID used for ads) w
 ---
 
 ## 4. 広告のオプトアウト / Opting Out of Personalized Ads
-パーソナライズ広告は端末設定で無効化できます（Android: 設定 → Google → 広告 → 「広告のパーソナライズをオプトアウト」）。同画面で広告IDのリセットも可能です。
+パーソナライズ広告は端末設定で無効化できます。
+- **Android**: 設定 → Google → 広告 → 「広告のパーソナライズをオプトアウト」。同画面で広告IDのリセットも可能です。
+- **iOS**: 設定 → プライバシーとセキュリティ → トラッキング でアプリのトラッキング要求を拒否できます。設定 → プライバシーとセキュリティ → Apple の広告 でパーソナライズ広告を無効化できます。
 
-You can disable personalized ads in device settings (Android: Settings → Google → Ads → "Opt out of Ads Personalization") and reset your advertising ID there.
+You can disable personalized ads in device settings.
+- **Android**: Settings → Google → Ads → "Opt out of Ads Personalization"; you can also reset your advertising ID there.
+- **iOS**: Settings → Privacy & Security → Tracking to deny app tracking requests, and Settings → Privacy & Security → Apple Advertising to turn off personalized ads.
 
 ---
 
 ## 5. 保存期間と削除 / Retention and Deletion
 - 端末内データ：本アプリのアンインストールで削除されます。
 - みんなの装備の投稿：アプリ内でいつでも自分の投稿を削除できます。
-- アカウント・全データの削除：[アカウント・データ削除の手引き](./ACCOUNT_DELETION.md)をご覧ください（リクエストから30日以内に削除）。
+- アカウントの削除：本アプリ内の「設定」からいつでも削除できます。詳細は[アカウント・データ削除の手引き](./ACCOUNT_DELETION.md)をご覧ください。
+- その他、全データの削除：上記の手引きに沿ってご連絡ください（リクエストから30日以内に削除）。
 
 - On-device data: removed when you uninstall the App.
 - Community Gear posts: you can delete your own posts anytime in the App.
-- Account / full data deletion: see [Account & Data Deletion](./ACCOUNT_DELETION.md) (deleted within 30 days of request).
+- Account deletion: you can delete your account anytime from Settings in the App. See [Account & Data Deletion](./ACCOUNT_DELETION.md).
+- Full data deletion: contact us as described in that guide (deleted within 30 days of request).
 
 ---
 
