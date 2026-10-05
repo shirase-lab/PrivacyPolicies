@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy
 
-**最終更新日 / Last updated: 2026-09-26**
+**最終更新日 / Last updated: 2026-10-05**
 
 Shirase Lab（以下「当方」）は、モバイルアプリケーション「ヴァナギア」（Android パッケージ名: `com.shiraselab.vana_gear` / iOS バンドル ID: `com.shiraselab.vana-gear`、以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。本アプリはファイナルファンタジーXI（FFXI）の装備管理・ダメージ計算などを支援する非公式のファンツールであり、株式会社スクウェア・エニックスとは一切関係ありません。
 
@@ -32,9 +32,9 @@ When you post, the following is stored on the server (Google Cloud Firestore) an
 - Job, set name, gear configuration, tags, timestamp, and an anonymous poster ID (UID).
 
 ### 1-4. 広告 / Advertising (Google AdMob)
-広告配信のため、**広告識別子（Advertising ID）や端末情報**が Google および広告パートナーにより取得・利用されることがあります。
+広告配信のため、**広告識別子（Advertising ID）や端末情報**が Google および広告パートナーにより取得・利用されることがあります。本アプリは Google AdMob の**メディエーション**を利用しており、AdMob が「3-1. 広告メディエーションのパートナー」記載の広告ネットワークにも広告枠を割り当てます（各社に広告 ID・端末情報・おおよその地域が共有されることがあります）。
 
-For ad delivery, the **advertising ID** and device information may be collected and used by Google and its advertising partners.
+For ad delivery, the **advertising ID** and device information may be collected and used by Google and its advertising partners. The App uses Google AdMob **mediation**, which may allocate ad requests to the ad networks listed in "3-1. Ad mediation partners" (your advertising ID, device information, and coarse location may be shared with them).
 
 ### 1-5. アプリ内購入 / In-app purchases (Google Play Billing / App Store)
 寄付・広告除去の購入は **Google Play（Android）または App Store（iOS）が決済を処理**し、当方はクレジットカード等の決済情報を取得・保持しません。
@@ -65,12 +65,33 @@ Firebase Remote Config is used to fetch configuration values and contains no per
 本アプリは以下のサービスを利用します。各社の取扱いは各社のポリシーに従います。
 The App uses the following services, governed by their respective policies:
 - Firebase Authentication / Cloud Firestore / Remote Config — https://firebase.google.com/support/privacy
-- Google AdMob — https://policies.google.com/technologies/ads
+- Google AdMob（**メディエーション**経由で下記「3-1」の広告ネットワークへも配信を委託）— https://policies.google.com/technologies/ads
 - Google Play Billing（Android）— https://policies.google.com/privacy
 - Sign in with Apple / App Store 課金（iOS）— https://www.apple.com/legal/privacy/
 
 広告ID以外の利用者データを、当方が第三者に販売・提供することはありません。
 We do not sell or share user data (other than the advertising ID used for ads) with third parties.
+
+### 3-1. 広告メディエーションのパートナー / Ad mediation partners
+
+本アプリの広告は Google AdMob の**メディエーション**を利用しており、AdMob が下記の広告ネットワークにも広告枠を割り当てます。広告が表示される際、各ネットワークに対して**広告 ID（AAID。利用者が端末設定で許可した場合のみ）・端末情報・おおよその地域**が共有されることがあります。取扱いは各社のプライバシーポリシーに従います。パーソナライズ広告のオプトアウトは「4. 広告のオプトアウト」をご覧ください。
+
+Ads in the App are served through Google AdMob **mediation**. AdMob may allocate ad requests to the ad networks listed below. When an ad is served, these networks may receive your **advertising ID (AAID, only where you allowed it in device settings), device information, and coarse location**. Their handling is governed by each provider's privacy policy. To opt out of personalized ads, see "4. Opting Out of Personalized Ads".
+
+| 広告ネットワーク / Ad network | プライバシーポリシー / Privacy policy |
+|---|---|
+| LINEヤフー広告ネットワーク (FIVE) / LY Corporation | https://www.lycorp.co.jp/ja/company/privacypolicy/ |
+| Unity Ads | https://unity.com/legal/game-player-and-app-user-privacy-policy |
+| Pangle | https://www.pangleglobal.com/privacy |
+| Meta Audience Network | https://www.facebook.com/about/privacy/ |
+| Liftoff Monetize (旧 Vungle) | https://liftoff.io/privacy-policy |
+| ironSource | https://www.is.com/privacy-policy/ |
+| Mintegral | https://www.mintegral.com/en/privacy/ |
+| maio（2020-12 に i-mobile Ad Network へ統合・運営は i-mobile） | https://www.i-mobile.co.jp/privacy.html |
+| i-mobile | https://www.i-mobile.co.jp/privacy.html |
+
+AdMob が利用する広告パートナーの一覧は Google のページ（https://support.google.com/admob/answer/9012903 ）でも公開されています。
+The list of ad partners used by AdMob is also published by Google (https://support.google.com/admob/answer/9012903 ).
 
 ---
 
