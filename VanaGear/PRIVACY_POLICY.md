@@ -16,11 +16,11 @@ Shirase Lab ("we", "us") provides this Privacy Policy describing how we handle i
 Gear sets, inventory, player/job settings and app preferences are stored only on your device and are not transmitted externally. With the backup feature, you can export/import this data as files yourself.
 
 ### 1-2. アカウント情報 / Account information (Firebase Authentication)
-「みんなの装備」（共有機能）のため、匿名認証、Google サインイン、または Sign in with Apple（iOS 版のみ）を行います。当方はユーザーを識別する**識別子（UID）**を利用します。Google サインイン利用時は認証が Google／Firebase により、Sign in with Apple 利用時は Apple／Firebase により処理され、メールアドレスが認証基盤に送信されます。Sign in with Apple では「メールアドレスを非公開」を選択でき、その場合は Apple の転送用アドレスが使われます。**当方は利用者の氏名を保存しません。**
+「みんなの装備」（共有機能）のため、匿名認証、Google サインイン、または Sign in with Apple（iOS 版のみ）を行います。当方はユーザーを識別する**識別子（UID）**を利用します。Google サインイン利用時は認証が Google／Firebase により、Sign in with Apple 利用時は Apple／Firebase により処理され、メールアドレスが認証基盤に送信されます。Sign in with Apple では「メールアドレスを非公開」を選択でき、その場合は Apple の転送用アドレスが使われます。このほか、当方が発行したアカウントに限り、メールアドレスとパスワードでのログインにも対応しています（審査用のデモアカウント向けで、一般の新規登録は受け付けていません）。**当方は利用者の氏名を保存しません。**
 
 ログインしたアカウントは、本アプリ内の「設定」からいつでも削除できます。
 
-For the "Community Gear" feature, the App uses anonymous authentication, Google Sign-In, or Sign in with Apple (iOS only). We use a **user identifier (UID)**. Google Sign-In is handled by Google/Firebase and Sign in with Apple by Apple/Firebase; your email address is transmitted to the authentication backend. Sign in with Apple lets you choose "Hide My Email", in which case Apple's private relay address is used. **We do not store your name.**
+For the "Community Gear" feature, the App uses anonymous authentication, Google Sign-In, or Sign in with Apple (iOS only). We use a **user identifier (UID)**. Google Sign-In is handled by Google/Firebase and Sign in with Apple by Apple/Firebase; your email address is transmitted to the authentication backend. Sign in with Apple lets you choose "Hide My Email", in which case Apple's private relay address is used. The App also supports email/password sign-in, but only for accounts we issue (intended for the app-review demo account; public sign-up is not offered). **We do not store your name.**
 
 You can delete your account at any time from Settings in the App.
 
