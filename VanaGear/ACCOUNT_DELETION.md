@@ -1,6 +1,6 @@
 # アカウント・データの削除 / Account &amp; Data Deletion
 
-**最終更新日 / Last updated: 2026-09-26**
+**最終更新日 / Last updated: 2026-10-08**
 
 アプリ「ヴァナギア」（Android パッケージ名: `com.shiraselab.vana_gear` / iOS バンドル ID: `com.shiraselab.vana-gear`、提供: Shirase Lab）における、アカウントおよびユーザーデータの削除方法を説明します。
 
@@ -40,7 +40,7 @@ This page explains how to delete your account and user data for "VanaGear" (Andr
 
 To delete all related data including your posts, contact us:
 
-- 宛先 / Email: **shirase.develop@gmail.com**
+- 宛先 / Email: **vanagear@shirase-lab.com**
 - 件名 / Subject: 「アカウント削除希望」/ "Account deletion request"
 - 本文 / Body: 削除対象を特定できる情報（ログイン方法: Google／Apple、おおよその投稿内容）/ information to identify your data (sign-in method: Google / Apple, approximate content of your posts)
 

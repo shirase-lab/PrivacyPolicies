@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy
 
-**最終更新日 / Last updated: 2026-10-05**
+**最終更新日 / Last updated: 2026-10-08**
 
 Shirase Lab（以下「当方」）は、モバイルアプリケーション「ヴァナギア」（Android パッケージ名: `com.shiraselab.vana_gear` / iOS バンドル ID: `com.shiraselab.vana-gear`、以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。本アプリはファイナルファンタジーXI（FFXI）の装備管理・ダメージ計算などを支援する非公式のファンツールであり、株式会社スクウェア・エニックスとは一切関係ありません。
 
@@ -140,4 +140,4 @@ We may update this Policy; significant changes will be posted here.
 
 ## 9. お問い合わせ / Contact
 - 提供者 / Provider: Shirase Lab
-- 連絡先 / Contact: shirase.develop@gmail.com
+- 連絡先 / Contact: vanagear@shirase-lab.com
