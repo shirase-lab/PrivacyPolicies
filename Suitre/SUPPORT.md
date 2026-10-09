@@ -5,7 +5,7 @@
 
 ## お問い合わせ
 ご質問・不具合のご報告はお気軽にどうぞ。
-- メール: suitore@shirase-lab.com
+- メール: suitre@shirase-lab.com
 
 ## ダウンロード
 - Google Play: https://play.google.com/store/apps/details?id=com.shiraselab.suitre
