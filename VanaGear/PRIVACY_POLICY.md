@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy
 
-**最終更新日 / Last updated: 2026-10-08**
+**最終更新日 / Last updated: 2026-10-09**
 
 Shirase Lab（以下「当方」）は、モバイルアプリケーション「ヴァナギア」（Android パッケージ名: `com.shiraselab.vana_gear` / iOS バンドル ID: `com.shiraselab.vana-gear`、以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシー（以下「本ポリシー」）を定めます。本アプリはファイナルファンタジーXI（FFXI）の装備管理・ダメージ計算などを支援する非公式のファンツールであり、株式会社スクウェア・エニックスとは一切関係ありません。
 
@@ -46,6 +46,11 @@ Donations and the ad-removal purchase are **processed by Google Play (Android) o
 
 Firebase Remote Config is used to fetch configuration values and contains no personally identifiable information.
 
+### 1-7. 利用状況の分析 / Usage analytics (Google Analytics for Firebase)
+アプリの改善のため、Google Analytics for Firebase で利用状況を集計します。送信されるのは、アプリの起動・利用時間・画面の利用状況、端末の種類・OS・アプリのバージョン、おおよその地域（国・地域）、アプリ用のインスタンス ID などです。**氏名・メールアドレス・装備データの内容は送信しません。**集計結果は個人を特定しない統計として利用します。
+
+To improve the App, we use Google Analytics for Firebase to measure usage. Data sent includes app launches, usage time and screen usage, device type, OS and app version, coarse location (country/region), and an app instance ID. **We do not send your name, email address, or the contents of your gear data.** Results are used only as aggregate statistics that do not identify individuals.
+
 ---
 
 ## 2. 利用目的 / Purposes
@@ -53,18 +58,20 @@ Firebase Remote Config is used to fetch configuration values and contains no per
 - アカウントの認証・管理
 - 広告の表示（AdMob）
 - 不具合対応・品質改善
+- 利用状況の分析（Google Analytics for Firebase）
 
 - Providing app features (gear management/sharing, damage calculation)
 - Authentication and account management
 - Showing ads (AdMob)
 - Troubleshooting and quality improvement
+- Usage analytics (Google Analytics for Firebase)
 
 ---
 
 ## 3. 第三者提供・外部送信 / Third Parties
 本アプリは以下のサービスを利用します。各社の取扱いは各社のポリシーに従います。
 The App uses the following services, governed by their respective policies:
-- Firebase Authentication / Cloud Firestore / Remote Config — https://firebase.google.com/support/privacy
+- Firebase Authentication / Cloud Firestore / Remote Config / Google Analytics for Firebase — https://firebase.google.com/support/privacy
 - Google AdMob（**メディエーション**経由で下記「3-1」の広告ネットワークへも配信を委託）— https://policies.google.com/technologies/ads
 - Google Play Billing（Android）— https://policies.google.com/privacy
 - Sign in with Apple / App Store 課金（iOS）— https://www.apple.com/legal/privacy/
