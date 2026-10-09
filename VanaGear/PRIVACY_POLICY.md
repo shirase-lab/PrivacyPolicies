@@ -31,6 +31,10 @@ You can delete your account at any time from Settings in the App.
 When you post, the following is stored on the server (Google Cloud Firestore) and is **publicly visible to other users**. Your name and email are not included:
 - Job, set name, gear configuration, tags, timestamp, and an anonymous poster ID (UID).
 
+また、みんなの装備でタグ検索をしたとき、人気タグの集計のため**検索したタグと回数のみ**をサーバーに送信します。誰が検索したかは記録しません。
+
+When you search Community Gear by tag, **only the tag and a count** are sent to the server to compile popular tags. We do not record who searched.
+
 ### 1-4. 広告 / Advertising (Google AdMob)
 広告配信のため、**広告識別子（Advertising ID）や端末情報**が Google および広告パートナーにより取得・利用されることがあります。本アプリは Google AdMob の**メディエーション**を利用しており、AdMob が「3-1. 広告メディエーションのパートナー」記載の広告ネットワークにも広告枠を割り当てます（各社に広告 ID・端末情報・おおよその地域が共有されることがあります）。
 
@@ -47,9 +51,9 @@ Donations (in-app purchases) are **processed by Google Play (Android) or the App
 Firebase Remote Config is used to fetch configuration values and contains no personally identifiable information.
 
 ### 1-7. 利用状況の分析 / Usage analytics (Google Analytics for Firebase)
-アプリの改善のため、Google Analytics for Firebase で利用状況を集計します。送信されるのは、アプリの起動・利用時間・画面の利用状況、端末の種類・OS・アプリのバージョン、おおよその地域（国・地域）、アプリ用のインスタンス ID などです。**氏名・メールアドレス・装備データの内容は送信しません。**集計結果は個人を特定しない統計として利用します。
+アプリの改善のため、Google Analytics for Firebase で利用状況を集計します。送信されるのは、アプリの起動・利用時間・画面の利用状況、端末の種類・OS・アプリのバージョン、おおよその地域（国・地域）、アプリ用のインスタンス ID、アプリ内購入（寄付）の記録（商品・価格）などです。**氏名・メールアドレス・装備データの内容は送信しません。**集計結果は個人を特定しない統計として利用します。
 
-To improve the App, we use Google Analytics for Firebase to measure usage. Data sent includes app launches, usage time and screen usage, device type, OS and app version, coarse location (country/region), and an app instance ID. **We do not send your name, email address, or the contents of your gear data.** Results are used only as aggregate statistics that do not identify individuals.
+To improve the App, we use Google Analytics for Firebase to measure usage. Data sent includes app launches, usage time and screen usage, device type, OS and app version, coarse location (country/region), an app instance ID, and records of in-app purchases (donations: product and price). **We do not send your name, email address, or the contents of your gear data.** Results are used only as aggregate statistics that do not identify individuals.
 
 ---
 
