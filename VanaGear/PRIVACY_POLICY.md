@@ -37,9 +37,9 @@ When you post, the following is stored on the server (Google Cloud Firestore) an
 For ad delivery, the **advertising ID** and device information may be collected and used by Google and its advertising partners. The App uses Google AdMob **mediation**, which may allocate ad requests to the ad networks listed in "3-1. Ad mediation partners" (your advertising ID, device information, and coarse location may be shared with them).
 
 ### 1-5. アプリ内購入 / In-app purchases (Google Play Billing / App Store)
-寄付・広告除去の購入は **Google Play（Android）または App Store（iOS）が決済を処理**し、当方はクレジットカード等の決済情報を取得・保持しません。
+寄付（アプリ内購入）は **Google Play（Android）または App Store（iOS）が決済を処理**し、当方はクレジットカード等の決済情報を取得・保持しません。
 
-Donations and the ad-removal purchase are **processed by Google Play (Android) or the App Store (iOS)**; we do not collect or store payment details.
+Donations (in-app purchases) are **processed by Google Play (Android) or the App Store (iOS)**; we do not collect or store payment details.
 
 ### 1-6. アプリ設定の取得 / App configuration (Firebase Remote Config)
 アプリ動作設定値の取得に Firebase Remote Config を利用します。個人を特定する情報は含まれません。
