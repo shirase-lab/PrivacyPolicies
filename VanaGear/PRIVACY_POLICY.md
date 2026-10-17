@@ -105,14 +105,14 @@ To improve the App, we use Google Analytics for Firebase to measure usage. Data 
 
 앱 개선을 위해 Google Analytics for Firebase로 이용 현황을 집계합니다. 전송되는 정보는 앱 실행·이용 시간·화면 이용 현황, 기기 종류·OS·앱 버전, 대략적인 지역(국가·지역), 앱용 인스턴스 ID, 앱 내 구매(기부) 기록(상품·가격) 등입니다. **이름·이메일 주소·장비 데이터의 내용은 전송하지 않습니다.** 집계 결과는 개인을 특정하지 않는 통계로 이용합니다.
 
-### 1-8. 写真からの装備の読み取り / Reading gear from photos (Google ML Kit) / 從照片讀取裝備（Google ML Kit）/ 사진에서 장비 읽기 (Google ML Kit)
-「写真から探す」を使うと、選んだ写真（またはカメラで撮った写真）から装備名を読み取ります。そのためにカメラ・写真へのアクセスを求めます。文字の読み取りは Google ML Kit で**端末の中だけで行い、写真や読み取った文字をサーバーへ送信・保存することはありません。**なお ML Kit は、診断と利用状況の分析のため、端末の情報（メーカー・機種・OS）、アプリのパッケージ名とバージョン、処理時間などの性能情報、画像の形式・解像度などの設定情報を Google に送信します（画像の中身は含みません）。
+### 1-8. 写真からの装備の読み取り / Reading gear from photos (Google ML Kit / Apple Vision) / 從照片讀取裝備（Google ML Kit / Apple Vision）/ 사진에서 장비 읽기 (Google ML Kit / Apple Vision)
+「写真から探す」を使うと、選んだ写真（またはカメラで撮った写真）から装備名を読み取ります。そのためにカメラ・写真へのアクセスを求めます。文字の読み取りは Android では Google ML Kit、iOS では Apple の Vision（iOS に標準で入っている機能）で**端末の中だけで行い、写真や読み取った文字をサーバーへ送信・保存することはありません。**なお Android の ML Kit は、診断と利用状況の分析のため、端末の情報（メーカー・機種・OS）、アプリのパッケージ名とバージョン、処理時間などの性能情報、画像の形式・解像度などの設定情報を Google に送信します（画像の中身は含みません）。
 
-When you use "Find from photo", the App reads gear names from the photo you choose (or take with the camera), and asks for access to your camera and photos for that purpose. Text recognition is done by Google ML Kit **on your device only; photos and recognized text are never sent to or stored on a server.** For diagnostics and usage analytics, ML Kit sends Google device information (manufacturer, model, OS), the app package name and version, performance metrics such as processing time, and configuration such as image format and resolution (not the image content).
+When you use "Find from photo", the App reads gear names from the photo you choose (or take with the camera), and asks for access to your camera and photos for that purpose. Text recognition is done **on your device only** by Google ML Kit on Android and by Apple Vision (built into iOS) on iOS; **photos and recognized text are never sent to or stored on a server.** For diagnostics and usage analytics, ML Kit on Android sends Google device information (manufacturer, model, OS), the app package name and version, performance metrics such as processing time, and configuration such as image format and resolution (not the image content).
 
-使用「從照片尋找」時，本應用程式會從您選擇的照片（或以相機拍攝的照片）讀取裝備名稱，為此會要求存取相機與照片。文字辨識由 Google ML Kit **僅在裝置內進行，照片及辨識出的文字不會傳送或儲存至伺服器。**此外，ML Kit 為診斷與使用狀況分析，會將裝置資訊（製造商、機型、作業系統）、應用程式的套件名稱與版本、處理時間等效能資訊，以及影像格式、解析度等設定資訊傳送給 Google（不含影像內容）。
+使用「從照片尋找」時，本應用程式會從您選擇的照片（或以相機拍攝的照片）讀取裝備名稱，為此會要求存取相機與照片。文字辨識在 Android 上由 Google ML Kit、在 iOS 上由 Apple Vision（iOS 內建功能）**僅在裝置內進行，照片及辨識出的文字不會傳送或儲存至伺服器。**此外，Android 上的 ML Kit 為診斷與使用狀況分析，會將裝置資訊（製造商、機型、作業系統）、應用程式的套件名稱與版本、處理時間等效能資訊，以及影像格式、解析度等設定資訊傳送給 Google（不含影像內容）。
 
-「사진에서 찾기」를 사용하면 선택한 사진(또는 카메라로 촬영한 사진)에서 장비 이름을 읽습니다. 이를 위해 카메라·사진 접근 권한을 요청합니다. 문자 인식은 Google ML Kit로 **기기 내에서만 처리하며, 사진이나 인식한 문자를 서버로 전송하거나 저장하지 않습니다.** 또한 ML Kit는 진단 및 이용 현황 분석을 위해 기기 정보(제조사·모델·OS), 앱 패키지 이름과 버전, 처리 시간 등의 성능 정보, 이미지 형식·해상도 등의 설정 정보를 Google에 전송합니다(이미지 내용은 포함하지 않음).
+「사진에서 찾기」를 사용하면 선택한 사진(또는 카메라로 촬영한 사진)에서 장비 이름을 읽습니다. 이를 위해 카메라·사진 접근 권한을 요청합니다. 문자 인식은 Android에서는 Google ML Kit, iOS에서는 Apple Vision(iOS 기본 기능)으로 **기기 내에서만 처리하며, 사진이나 인식한 문자를 서버로 전송하거나 저장하지 않습니다.** 또한 Android의 ML Kit는 진단 및 이용 현황 분석을 위해 기기 정보(제조사·모델·OS), 앱 패키지 이름과 버전, 처리 시간 등의 성능 정보, 이미지 형식·해상도 등의 설정 정보를 Google에 전송합니다(이미지 내용은 포함하지 않음).
 
 ---
 
@@ -155,7 +155,7 @@ The App uses the following services, governed by their respective policies:
 - Firebase Authentication / Cloud Firestore / Remote Config / Google Analytics for Firebase — https://firebase.google.com/support/privacy
 - Google AdMob（**メディエーション**経由で下記「3-1」の広告ネットワークへも配信を委託）— https://policies.google.com/technologies/ads
 - Google Play Billing（Android）— https://policies.google.com/privacy
-- Google ML Kit（写真からの装備名の読み取り / reading gear from photos）— https://developers.google.com/ml-kit/android-data-disclosure
+- Google ML Kit（Android：写真からの装備名の読み取り / reading gear from photos on Android）— https://developers.google.com/ml-kit/android-data-disclosure
 - Sign in with Apple / App Store 課金（iOS）— https://www.apple.com/legal/privacy/
 
 広告ID以外の利用者データを、当方が第三者に販売・提供することはありません。
