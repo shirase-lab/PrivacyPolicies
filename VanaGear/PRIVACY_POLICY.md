@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy / 隱私權政策 / 개인정보 처리방침
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-17**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-18**
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -108,11 +108,19 @@ To improve the App, we use Google Analytics for Firebase to measure usage. Data 
 ### 1-8. 写真からの装備の読み取り / Reading gear from photos (Google ML Kit / Apple Vision) / 從照片讀取裝備（Google ML Kit / Apple Vision）/ 사진에서 장비 읽기 (Google ML Kit / Apple Vision)
 「写真から探す」を使うと、選んだ写真、カメラの映像、またはほかのアプリから「共有」で渡された画像から装備名を読み取ります。そのためにカメラ・写真へのアクセスを求めます。文字の読み取りは Android では Google ML Kit、iOS では Apple の Vision（iOS に標準で入っている機能）で**端末の中だけで行い、写真・カメラの映像や読み取った文字をサーバーへ送信・保存することはありません。**なお Android の ML Kit は、診断と利用状況の分析のため、端末の情報（メーカー・機種・OS）、アプリのパッケージ名とバージョン、処理時間などの性能情報、画像の形式・解像度などの設定情報を Google に送信します（画像の中身は含みません）。
 
+装備セットの「QRを読み取る」でも、カメラまたは選んだ画像から QR を読み取ります。読み取りは端末の中だけで行い（Android は Google ML Kit、iOS は Apple の Vision）、画像や QR の中身をサーバーへ送信・保存することはありません。QR に入るのは装備セットの中身（ジョブ・名前・装備・オーグメント）だけで、アカウントなどの個人情報は含みません。
+
 When you use "Find from photo", the App reads gear names from the photo you choose, the camera view, or an image shared from another app, and asks for access to your camera and photos for that purpose. Text recognition is done **on your device only** by Google ML Kit on Android and by Apple Vision (built into iOS) on iOS; **photos, camera video and recognized text are never sent to or stored on a server.** For diagnostics and usage analytics, ML Kit on Android sends Google device information (manufacturer, model, OS), the app package name and version, performance metrics such as processing time, and configuration such as image format and resolution (not the image content).
+
+The "Scan QR" feature on the gear set screen also reads a QR code from the camera or an image you choose. This is done on your device only (Google ML Kit on Android, Apple Vision on iOS); images and QR contents are never sent to or stored on a server. A QR code contains only the gear set (job, name, gear and augments), not your account or other personal information.
 
 使用「從照片尋找」時，本應用程式會從您選擇的照片、相機畫面，或從其他應用程式「分享」過來的圖片讀取裝備名稱，為此會要求存取相機與照片。文字辨識在 Android 上由 Google ML Kit、在 iOS 上由 Apple Vision（iOS 內建功能）**僅在裝置內進行，照片、相機影像及辨識出的文字不會傳送或儲存至伺服器。**此外，Android 上的 ML Kit 為診斷與使用狀況分析，會將裝置資訊（製造商、機型、作業系統）、應用程式的套件名稱與版本、處理時間等效能資訊，以及影像格式、解析度等設定資訊傳送給 Google（不含影像內容）。
 
+裝備組合畫面的「讀取QR」也會從相機或您選擇的圖片讀取QR碼。讀取僅在裝置內進行（Android為Google ML Kit，iOS為Apple Vision），圖片及QR碼內容不會傳送或儲存至伺服器。QR碼只包含裝備組合的內容（職業、名稱、裝備、附加屬性），不含帳號等個人資訊。
+
 「사진에서 찾기」를 사용하면 선택한 사진, 카메라 화면 또는 다른 앱에서 「공유」로 받은 이미지에서 장비 이름을 읽습니다. 이를 위해 카메라·사진 접근 권한을 요청합니다. 문자 인식은 Android에서는 Google ML Kit, iOS에서는 Apple Vision(iOS 기본 기능)으로 **기기 내에서만 처리하며, 사진·카메라 영상이나 인식한 문자를 서버로 전송하거나 저장하지 않습니다.** 또한 Android의 ML Kit는 진단 및 이용 현황 분석을 위해 기기 정보(제조사·모델·OS), 앱 패키지 이름과 버전, 처리 시간 등의 성능 정보, 이미지 형식·해상도 등의 설정 정보를 Google에 전송합니다(이미지 내용은 포함하지 않음).
+
+장비 세트 화면의 「QR 읽기」에서도 카메라 또는 선택한 이미지에서 QR을 읽습니다. 읽기는 기기 내에서만 처리하며(Android는 Google ML Kit, iOS는 Apple Vision), 이미지나 QR 내용을 서버로 전송하거나 저장하지 않습니다. QR에는 장비 세트 내용(직업·이름·장비·오그멘트)만 들어가며 계정 등 개인 정보는 포함하지 않습니다.
 
 ---
 
