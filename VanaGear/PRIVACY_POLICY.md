@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy / 隱私權政策 / 개인정보 처리방침
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-18**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-19**
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -68,6 +68,14 @@ When you search Community Gear by tag, **only the tag and a count** are sent to 
 此外，於「大家的裝備」中以標籤搜尋時，為統計熱門標籤，**僅會將搜尋的標籤及次數**傳送至伺服器。本方不會記錄搜尋者的身分。
 
 또한 "모두의 장비"에서 태그로 검색할 때, 인기 태그 집계를 위해 **검색한 태그와 횟수만** 서버로 전송합니다. 누가 검색했는지는 기록하지 않습니다.
+
+装備の人気順を出すため、所持品やほしい物に装備を追加・削除したとき、**装備の番号と増減の回数のみ**をサーバーに送信します。誰が登録したかは記録しません。
+
+To show gear sorted by popularity, when you add or remove gear in your bag or wishlist, **only the gear's ID number and the change in count** are sent to the server. We do not record who registered it.
+
+為顯示裝備的熱門排序，當您在持有物品或願望清單中新增或移除裝備時，**僅會將裝備編號及增減次數**傳送至伺服器。本方不會記錄登錄者的身分。
+
+장비의 인기순을 표시하기 위해, 소지품이나 위시리스트에 장비를 추가·삭제할 때 **장비 번호와 증감 횟수만** 서버로 전송합니다. 누가 등록했는지는 기록하지 않습니다.
 
 ### 1-4. 広告 / Advertising (Google AdMob) / 廣告（Google AdMob）/ 광고 (Google AdMob)
 広告配信のため、**広告識別子（Advertising ID）や端末情報**が Google および広告パートナーにより取得・利用されることがあります。本アプリは Google AdMob の**メディエーション**を利用しており、AdMob が「3-1. 広告メディエーションのパートナー」記載の広告ネットワークにも広告枠を割り当てます（各社に広告 ID・端末情報・おおよその地域が共有されることがあります）。
