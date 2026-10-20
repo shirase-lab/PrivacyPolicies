@@ -23,13 +23,13 @@ Shirase Lab(이하 "당사")은 모바일 애플리케이션 "VanaGear"(Android 
 ## 1. 取得する情報 / Information We Collect / 收集的資訊 / 수집하는 정보
 
 ### 1-1. 端末内に保存される情報 / Data stored on your device / 儲存於裝置內的資訊 / 기기에 저장되는 정보
-装備セット、所持品、プレイヤー／ジョブ設定、アプリ設定などは、原則としてお使いの端末内にのみ保存され、外部送信されません。バックアップ機能を使う場合、利用者ご自身の操作でこれらをファイルとして書き出し・読み込みできます。
+装備セット、所持品、プレイヤー／ジョブ設定、Todo、アプリ設定などは、原則としてお使いの端末内にのみ保存され、外部送信されません。Todo の通知も端末の中で予約します。バックアップ機能を使う場合、利用者ご自身の操作でこれらをファイルとして書き出し・読み込みできます。
 
-Gear sets, inventory, player/job settings and app preferences are stored only on your device and are not transmitted externally. With the backup feature, you can export/import this data as files yourself.
+Gear sets, inventory, player/job settings, To-dos and app preferences are stored only on your device and are not transmitted externally. To-do notifications are also scheduled on your device. With the backup feature, you can export/import this data as files yourself.
 
-裝備組合、持有物品、玩家／職業設定、應用程式設定等，原則上僅儲存於您使用的裝置內，不會傳送至外部。使用備份功能時，使用者可自行操作，將上述資料匯出為檔案或從檔案匯入。
+裝備組合、持有物品、玩家／職業設定、待辦事項（Todo）、應用程式設定等，原則上僅儲存於您使用的裝置內，不會傳送至外部。待辦事項的通知亦於裝置內排程。使用備份功能時，使用者可自行操作，將上述資料匯出為檔案或從檔案匯入。
 
-장비 세트, 소지품, 플레이어/잡 설정, 앱 설정 등은 원칙적으로 이용자가 사용하는 기기 내에만 저장되며 외부로 전송되지 않습니다. 백업 기능을 이용하는 경우, 이용자 본인의 조작으로 이를 파일로 내보내거나 불러올 수 있습니다.
+장비 세트, 소지품, 플레이어/잡 설정, Todo, 앱 설정 등은 원칙적으로 이용자가 사용하는 기기 내에만 저장되며 외부로 전송되지 않습니다. Todo 알림도 기기 내에서 예약합니다. 백업 기능을 이용하는 경우, 이용자 본인의 조작으로 이를 파일로 내보내거나 불러올 수 있습니다.
 
 ### 1-2. アカウント情報 / Account information (Firebase Authentication) / 帳號資訊（Firebase Authentication）/ 계정 정보 (Firebase Authentication)
 「みんなの装備」（共有機能）のため、匿名認証、Google サインイン、または Sign in with Apple（iOS 版のみ）を行います。当方はユーザーを識別する**識別子（UID）**を利用します。Google サインイン利用時は認証が Google／Firebase により、Sign in with Apple 利用時は Apple／Firebase により処理され、メールアドレスが認証基盤に送信されます。Sign in with Apple では「メールアドレスを非公開」を選択でき、その場合は Apple の転送用アドレスが使われます。このほか、当方が発行したアカウントに限り、メールアドレスとパスワードでのログインにも対応しています（審査用のデモアカウント向けで、一般の新規登録は受け付けていません）。**当方は利用者の氏名を保存しません。**
@@ -77,6 +77,52 @@ To show gear and blue magic sorted by popularity, when you add or remove gear in
 
 장비와 청마법의 인기순을 표시하기 위해, 소지품이나 위시리스트에 장비를 추가·삭제할 때, 그리고 청마법 세트에 청마법을 넣거나 뺄 때 **장비 번호 또는 청마법 이름과 증감 횟수만** 서버로 전송합니다. 누가 등록했는지는 기록하지 않습니다.
 
+みんなの装備の「いいね」は、**いいねの数だけ**をサーバーに送信します。誰がいいねしたかはサーバーに記録しません（自分がいいねした投稿は端末内にだけ保存します）。
+
+For likes on Community Gear, **only the like count** is sent to the server. We do not record on the server who liked a post (the posts you liked are stored only on your device).
+
+「大家的裝備」的「讚」，**僅會將讚的數量**傳送至伺服器。伺服器不會記錄按讚者的身分（您按讚的投稿僅儲存於您的裝置內）。
+
+"모두의 장비"의 "좋아요"는 **좋아요 수만** 서버로 전송합니다. 누가 좋아요를 눌렀는지는 서버에 기록하지 않습니다(본인이 좋아요를 누른 게시물은 기기 내에만 저장합니다).
+
+#### みんなの敵 / Community Enemies / 大家的敵人 / 모두의 적
+利用者が敵を投稿した場合、以下がサーバー（Google Cloud Firestore）に保存され、**他の利用者に公開表示**されます。氏名・メールアドレスは含まれません。
+- 敵の名前、レベル・防御力などのステータス、耐性、投稿日時、投稿者の匿名識別子（UID）、「自分の敵に追加」された回数
+
+ほかの利用者が投稿した敵を「自分の敵に追加」したときは、**追加された回数のみ**をサーバーに送信します。誰が追加したかは記録しません。
+
+When you post an enemy, the following is stored on the server (Google Cloud Firestore) and is **publicly visible to other users**. Your name and email are not included:
+- Enemy name, stats such as level and defense, resistances, timestamp, an anonymous poster ID (UID), and how many times it was added by others.
+
+When you add an enemy posted by someone else to your own enemies, **only the add count** is sent to the server. We do not record who added it.
+
+使用者投稿敵人時，下列資訊將儲存於伺服器（Google Cloud Firestore），並**公開顯示給其他使用者**。其中不包含姓名及電子郵件地址。
+- 敵人名稱、等級與防禦力等能力值、抗性、投稿日期時間、投稿者的匿名識別碼（UID）、被「加入自己的敵人」的次數
+
+將其他使用者投稿的敵人「加入自己的敵人」時，**僅會將加入次數**傳送至伺服器。本方不會記錄加入者的身分。
+
+이용자가 적을 게시한 경우, 다음 정보가 서버(Google Cloud Firestore)에 저장되며 **다른 이용자에게 공개 표시**됩니다. 이름·이메일 주소는 포함되지 않습니다.
+- 적 이름, 레벨·방어력 등의 능력치, 내성, 게시 일시, 게시자의 익명 식별자(UID), "내 적에 추가"된 횟수
+
+다른 이용자가 게시한 적을 "내 적에 추가"할 때는 **추가된 횟수만** 서버로 전송합니다. 누가 추가했는지는 기록하지 않습니다.
+
+#### 修正依頼・不具合の報告 / Correction requests and bug reports / 修正請求與錯誤回報 / 수정 요청·오류 보고
+装備・オーグメント・敵のデータの修正依頼、およびアプリの「修正・バグ報告依頼」を送った場合、以下がサーバー（Google Cloud Firestore）に保存されます。データを確かめるため、**他の利用者も見られる状態**で保存します。本文に個人情報を書かないでください。
+- 対象（装備・敵など）、項目、今の値、正しい値・内容（自由に書いた文章を含む）、出典、送信日時、送信者の匿名識別子（UID）
+- 修正依頼を「承認」した場合は、承認した利用者の匿名識別子（UID）と日時
+
+When you send a correction request for gear, augment or enemy data, or use "Report issue / bug" in the App, the following is stored on the server (Google Cloud Firestore). So the data can be verified, it is stored so that **other users can also see it**. Please do not include personal information in the text:
+- The target (gear, enemy, etc.), field, current value, proposed value or content (including free text you write), source, timestamp, and an anonymous sender ID (UID).
+- When you "approve" a correction request, the approving user's anonymous ID (UID) and the time.
+
+傳送裝備、附加屬性或敵人資料的修正請求，以及使用應用程式的「修正・錯誤回報」時，下列資訊將儲存於伺服器（Google Cloud Firestore）。為了確認資料，將以**其他使用者亦可查看的狀態**儲存。請勿於內文中填寫個人資訊。
+- 對象（裝備、敵人等）、項目、目前的值、正確的值或內容（包含您自由填寫的文字）、出處、傳送日期時間、傳送者的匿名識別碼（UID）
+- 「核准」修正請求時，核准者的匿名識別碼（UID）及日期時間
+
+장비·오그멘트·적 데이터의 수정 요청 및 앱의 "수정·버그 보고 요청"을 보낸 경우, 다음 정보가 서버(Google Cloud Firestore)에 저장됩니다. 데이터 확인을 위해 **다른 이용자도 볼 수 있는 상태**로 저장합니다. 본문에 개인 정보를 적지 마십시오.
+- 대상(장비·적 등), 항목, 현재 값, 올바른 값·내용(자유롭게 작성한 문장 포함), 출처, 전송 일시, 전송자의 익명 식별자(UID)
+- 수정 요청을 "승인"한 경우, 승인한 이용자의 익명 식별자(UID)와 일시
+
 ### 1-4. 広告 / Advertising (Google AdMob) / 廣告（Google AdMob）/ 광고 (Google AdMob)
 広告配信のため、**広告識別子（Advertising ID）や端末情報**が Google および広告パートナーにより取得・利用されることがあります。本アプリは Google AdMob の**メディエーション**を利用しており、AdMob が「3-1. 広告メディエーションのパートナー」記載の広告ネットワークにも広告枠を割り当てます（各社に広告 ID・端末情報・おおよその地域が共有されることがあります）。
 
@@ -116,24 +162,25 @@ To improve the App, we use Google Analytics for Firebase to measure usage. Data 
 ### 1-8. 写真からの装備の読み取り / Reading gear from photos (Google ML Kit / Apple Vision) / 從照片讀取裝備（Google ML Kit / Apple Vision）/ 사진에서 장비 읽기 (Google ML Kit / Apple Vision)
 「写真から探す」を使うと、選んだ写真、カメラの映像、またはほかのアプリから「共有」で渡された画像から装備名を読み取ります。そのためにカメラ・写真へのアクセスを求めます。文字の読み取りは Android では Google ML Kit、iOS では Apple の Vision（iOS に標準で入っている機能）で**端末の中だけで行い、写真・カメラの映像や読み取った文字をサーバーへ送信・保存することはありません。**なお Android の ML Kit は、診断と利用状況の分析のため、端末の情報（メーカー・機種・OS）、アプリのパッケージ名とバージョン、処理時間などの性能情報、画像の形式・解像度などの設定情報を Google に送信します（画像の中身は含みません）。
 
-装備セットの「QRを読み取る」でも、カメラまたは選んだ画像から QR を読み取ります。読み取りは端末の中だけで行い（Android は Google ML Kit、iOS は Apple の Vision）、画像や QR の中身をサーバーへ送信・保存することはありません。QR に入るのは装備セットの中身（ジョブ・名前・装備・オーグメント）だけで、アカウントなどの個人情報は含みません。
+装備セットの「QRを読み取る」でも、カメラまたは選んだ画像から QR を読み取ります。読み取りは端末の中だけで行い（Android は Google ML Kit、iOS は Apple の Vision）、画像や QR の中身をサーバーへ送信・保存することはありません。QR に入るのは装備セットの中身（ジョブ・名前・装備・オーグメント）だけで、アカウントなどの個人情報は含みません。QR と同じ中身を当方のウェブサイトのリンク（`https://www.shirase-lab.com/vanagear/set#…`）でも共有できます。リンクの「#」より後ろ（装備セットの中身）はブラウザの外へ送られないため、当方のサーバーには届きません。
 
 When you use "Find from photo", the App reads gear names from the photo you choose, the camera view, or an image shared from another app, and asks for access to your camera and photos for that purpose. Text recognition is done **on your device only** by Google ML Kit on Android and by Apple Vision (built into iOS) on iOS; **photos, camera video and recognized text are never sent to or stored on a server.** For diagnostics and usage analytics, ML Kit on Android sends Google device information (manufacturer, model, OS), the app package name and version, performance metrics such as processing time, and configuration such as image format and resolution (not the image content).
 
-The "Scan QR" feature on the gear set screen also reads a QR code from the camera or an image you choose. This is done on your device only (Google ML Kit on Android, Apple Vision on iOS); images and QR contents are never sent to or stored on a server. A QR code contains only the gear set (job, name, gear and augments), not your account or other personal information.
+The "Scan QR" feature on the gear set screen also reads a QR code from the camera or an image you choose. This is done on your device only (Google ML Kit on Android, Apple Vision on iOS); images and QR contents are never sent to or stored on a server. A QR code contains only the gear set (job, name, gear and augments), not your account or other personal information. The same contents can also be shared as a link to our website (`https://www.shirase-lab.com/vanagear/set#…`). The part after "#" (the gear set) is not sent by the browser, so it never reaches our server.
 
 使用「從照片尋找」時，本應用程式會從您選擇的照片、相機畫面，或從其他應用程式「分享」過來的圖片讀取裝備名稱，為此會要求存取相機與照片。文字辨識在 Android 上由 Google ML Kit、在 iOS 上由 Apple Vision（iOS 內建功能）**僅在裝置內進行，照片、相機影像及辨識出的文字不會傳送或儲存至伺服器。**此外，Android 上的 ML Kit 為診斷與使用狀況分析，會將裝置資訊（製造商、機型、作業系統）、應用程式的套件名稱與版本、處理時間等效能資訊，以及影像格式、解析度等設定資訊傳送給 Google（不含影像內容）。
 
-裝備組合畫面的「讀取QR」也會從相機或您選擇的圖片讀取QR碼。讀取僅在裝置內進行（Android為Google ML Kit，iOS為Apple Vision），圖片及QR碼內容不會傳送或儲存至伺服器。QR碼只包含裝備組合的內容（職業、名稱、裝備、附加屬性），不含帳號等個人資訊。
+裝備組合畫面的「讀取QR」也會從相機或您選擇的圖片讀取QR碼。讀取僅在裝置內進行（Android為Google ML Kit，iOS為Apple Vision），圖片及QR碼內容不會傳送或儲存至伺服器。QR碼只包含裝備組合的內容（職業、名稱、裝備、附加屬性），不含帳號等個人資訊。與QR碼相同的內容，亦可透過本方網站的連結（`https://www.shirase-lab.com/vanagear/set#…`）分享。連結中「#」之後的部分（裝備組合的內容）不會由瀏覽器傳送，因此不會送達本方的伺服器。
 
 「사진에서 찾기」를 사용하면 선택한 사진, 카메라 화면 또는 다른 앱에서 「공유」로 받은 이미지에서 장비 이름을 읽습니다. 이를 위해 카메라·사진 접근 권한을 요청합니다. 문자 인식은 Android에서는 Google ML Kit, iOS에서는 Apple Vision(iOS 기본 기능)으로 **기기 내에서만 처리하며, 사진·카메라 영상이나 인식한 문자를 서버로 전송하거나 저장하지 않습니다.** 또한 Android의 ML Kit는 진단 및 이용 현황 분석을 위해 기기 정보(제조사·모델·OS), 앱 패키지 이름과 버전, 처리 시간 등의 성능 정보, 이미지 형식·해상도 등의 설정 정보를 Google에 전송합니다(이미지 내용은 포함하지 않음).
 
-장비 세트 화면의 「QR 읽기」에서도 카메라 또는 선택한 이미지에서 QR을 읽습니다. 읽기는 기기 내에서만 처리하며(Android는 Google ML Kit, iOS는 Apple Vision), 이미지나 QR 내용을 서버로 전송하거나 저장하지 않습니다. QR에는 장비 세트 내용(직업·이름·장비·오그멘트)만 들어가며 계정 등 개인 정보는 포함하지 않습니다.
+장비 세트 화면의 「QR 읽기」에서도 카메라 또는 선택한 이미지에서 QR을 읽습니다. 읽기는 기기 내에서만 처리하며(Android는 Google ML Kit, iOS는 Apple Vision), 이미지나 QR 내용을 서버로 전송하거나 저장하지 않습니다. QR에는 장비 세트 내용(직업·이름·장비·오그멘트)만 들어가며 계정 등 개인 정보는 포함하지 않습니다. QR과 같은 내용을 당사 웹사이트의 링크(`https://www.shirase-lab.com/vanagear/set#…`)로도 공유할 수 있습니다. 링크의 "#" 뒤의 부분(장비 세트 내용)은 브라우저 밖으로 전송되지 않으므로 당사 서버에 전달되지 않습니다.
 
 ---
 
 ## 2. 利用目的 / Purposes / 使用目的 / 이용 목적
 - 本アプリの機能提供（装備の管理・共有、ダメージ計算）
+- 利用者どうしの共有（みんなの装備・みんなの敵）と、データの修正依頼・不具合の報告
 - アカウントの認証・管理
 - 広告の表示（AdMob）
 - 不具合対応・品質改善
@@ -141,6 +188,7 @@ The "Scan QR" feature on the gear set screen also reads a QR code from the camer
 - 写真からの装備名の読み取り（端末内で処理）
 
 - Providing app features (gear management/sharing, damage calculation)
+- Sharing between users (Community Gear, Community Enemies), data correction requests and bug reports
 - Authentication and account management
 - Showing ads (AdMob)
 - Troubleshooting and quality improvement
@@ -148,6 +196,7 @@ The "Scan QR" feature on the gear set screen also reads a QR code from the camer
 - Reading gear names from photos (processed on device)
 
 - 提供本應用程式的功能（裝備的管理與共享、傷害計算）
+- 使用者之間的共享（大家的裝備、大家的敵人）、資料修正請求與錯誤回報
 - 帳號的驗證與管理
 - 顯示廣告（AdMob）
 - 處理故障及改善品質
@@ -155,6 +204,7 @@ The "Scan QR" feature on the gear set screen also reads a QR code from the camer
 - 從照片讀取裝備名稱（於裝置內處理）
 
 - 본 앱의 기능 제공(장비 관리·공유, 대미지 계산)
+- 이용자 간 공유(모두의 장비·모두의 적) 및 데이터 수정 요청·오류 보고
 - 계정 인증 및 관리
 - 광고 표시(AdMob)
 - 오류 대응 및 품질 개선
@@ -229,22 +279,26 @@ You can disable personalized ads in device settings.
 
 ## 5. 保存期間と削除 / Retention and Deletion / 保存期間與刪除 / 보존 기간 및 삭제
 - 端末内データ：本アプリのアンインストールで削除されます。
-- みんなの装備の投稿：アプリ内でいつでも自分の投稿を削除できます。
+- みんなの装備・みんなの敵の投稿：アプリ内でいつでも自分の投稿を削除できます。
+- 修正依頼・不具合の報告・承認：アプリ内では削除できません。削除をご希望の場合は下記の手引きに沿ってご連絡ください。
 - アカウントの削除：本アプリ内の「設定」からいつでも削除できます。詳細は[アカウント・データ削除の手引き](./ACCOUNT_DELETION.md)をご覧ください。
 - その他、全データの削除：上記の手引きに沿ってご連絡ください（リクエストから30日以内に削除）。
 
 - On-device data: removed when you uninstall the App.
-- Community Gear posts: you can delete your own posts anytime in the App.
+- Community Gear and Community Enemies posts: you can delete your own posts anytime in the App.
+- Correction requests, bug reports and approvals: these cannot be deleted in the App. To have them deleted, contact us as described in the guide below.
 - Account deletion: you can delete your account anytime from Settings in the App. See [Account & Data Deletion](./ACCOUNT_DELETION.md).
 - Full data deletion: contact us as described in that guide (deleted within 30 days of request).
 
 - 裝置內資料：解除安裝本應用程式後即刪除。
-- 「大家的裝備」的投稿：您可隨時於應用程式內刪除自己的投稿。
+- 「大家的裝備」與「大家的敵人」的投稿：您可隨時於應用程式內刪除自己的投稿。
+- 修正請求、錯誤回報與核准：無法於應用程式內刪除。如希望刪除，請依下述指南與本方聯絡。
 - 帳號刪除：可隨時從本應用程式內的「設定」刪除。詳情請參閱[帳號與資料刪除指南](./ACCOUNT_DELETION.md)。
 - 其他、刪除全部資料：請依上述指南與本方聯絡（自提出請求起 30 日內刪除）。
 
 - 기기 내 데이터: 본 앱을 제거(언인스톨)하면 삭제됩니다.
-- "모두의 장비" 게시물: 앱 내에서 언제든지 본인의 게시물을 삭제할 수 있습니다.
+- "모두의 장비"·"모두의 적" 게시물: 앱 내에서 언제든지 본인의 게시물을 삭제할 수 있습니다.
+- 수정 요청·오류 보고·승인: 앱 내에서는 삭제할 수 없습니다. 삭제를 원하시는 경우 아래 안내에 따라 연락해 주십시오.
 - 계정 삭제: 본 앱 내 "설정"에서 언제든지 삭제할 수 있습니다. 자세한 내용은 [계정·데이터 삭제 안내](./ACCOUNT_DELETION.md)를 참조하십시오.
 - 기타 전체 데이터 삭제: 위 안내에 따라 연락해 주십시오(요청일로부터 30일 이내에 삭제).
 
