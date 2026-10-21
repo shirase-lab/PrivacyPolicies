@@ -1,6 +1,6 @@
 # プライバシーポリシー（パタクロ！） / Privacy Policy (Pattern Closet) / 隱私權政策（Pattern Closet） / 개인정보 처리방침（Pattern Closet）
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-16**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-21**
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -10,13 +10,13 @@ This document is governed by its Japanese version; the English, Chinese and Kore
 
 본 문서는 일본어판을 정본으로 하며, 영어·중국어·한국어판은 참고용 번역본입니다. 내용에 차이가 있는 경우 일본어판이 우선합니다.
 
-Shirase Lab（以下「当方」）は、モバイルアプリケーション「パタクロ！」（Android パッケージ名・iOS バンドル ID: `com.shiraselab.nuifuku`、以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシーを定めます。
+Shirase Lab（以下「当方」）は、モバイルアプリケーション「パタクロ！」（Android パッケージ名・iOS バンドル ID: `com.shiraselab.patterncloset`、以下「本アプリ」）における利用者情報の取扱いについて、本プライバシーポリシーを定めます。
 
-Shirase Lab ("we") provides this Privacy Policy describing how we handle information in the mobile application "Pattern Closet" (Android package name and iOS bundle ID: `com.shiraselab.nuifuku`, the "App").
+Shirase Lab ("we") provides this Privacy Policy describing how we handle information in the mobile application "Pattern Closet" (Android package name and iOS bundle ID: `com.shiraselab.patterncloset`, the "App").
 
-Shirase Lab（以下稱「本方」）就行動應用程式「Pattern Closet」（Android 套件名稱及 iOS Bundle ID：`com.shiraselab.nuifuku`，以下稱「本應用程式」）中使用者資訊的處理方式，訂定本隱私權政策。
+Shirase Lab（以下稱「本方」）就行動應用程式「Pattern Closet」（Android 套件名稱及 iOS Bundle ID：`com.shiraselab.patterncloset`，以下稱「本應用程式」）中使用者資訊的處理方式，訂定本隱私權政策。
 
-Shirase Lab(이하 "당사")는 모바일 애플리케이션 "Pattern Closet"(Android 패키지 이름 및 iOS 번들 ID: `com.shiraselab.nuifuku`, 이하 "본 앱")에서의 이용자 정보 취급에 관하여 본 개인정보 처리방침을 정합니다.
+Shirase Lab(이하 "당사")는 모바일 애플리케이션 "Pattern Closet"(Android 패키지 이름 및 iOS 번들 ID: `com.shiraselab.patterncloset`, 이하 "본 앱")에서의 이용자 정보 취급에 관하여 본 개인정보 처리방침을 정합니다.
 
 ---
 
@@ -46,13 +46,13 @@ The App has no account registration or sign-in. The following information that y
 
 ### 2-1. 服テンプレの配信（Google Cloud Firestore） / Distributed clothing templates (Google Cloud Firestore) / 服裝範本的發布（Google Cloud Firestore） / 의상 템플릿 배포（Google Cloud Firestore）
 
-本アプリは、追加の服テンプレ（型紙の設計データ）を当方が管理する Google Cloud Firestore（Firebase）から読み込みます。この通信は読み込みのみで、採寸値や作成した型紙などの利用者の情報は送信しません。通信の際、IP アドレスなどの通常の通信情報が Google のサーバーで処理されます。詳しくは Google のプライバシーポリシー（https://policies.google.com/privacy ）および Firebase のプライバシーとセキュリティ（https://firebase.google.com/support/privacy ）をご覧ください。
+本アプリは、追加の服テンプレ（型紙の設計データ）を当方が管理する Google Cloud Firestore（Firebase）から読み込みます。あわせて、新しい版があるかを確かめるため、最新の版の番号などの設定を同じ Firestore から読み込みます（アプリの版との比較は端末の中で行います）。この通信は読み込みのみで、採寸値や作成した型紙などの利用者の情報は送信しません。通信の際、IP アドレスなどの通常の通信情報が Google のサーバーで処理されます。詳しくは Google のプライバシーポリシー（https://policies.google.com/privacy ）および Firebase のプライバシーとセキュリティ（https://firebase.google.com/support/privacy ）をご覧ください。
 
-The App downloads additional clothing templates (pattern design data) from Google Cloud Firestore (Firebase) managed by us. This communication is read-only; your information such as measurements and patterns you create is not sent. During the connection, standard network information such as your IP address is processed by Google's servers. For details, see Google's Privacy Policy (https://policies.google.com/privacy ) and Firebase Privacy and Security (https://firebase.google.com/support/privacy ).
+The App downloads additional clothing templates (pattern design data) from Google Cloud Firestore (Firebase) managed by us. It also downloads settings such as the latest version number from the same Firestore to check whether a new version is available (the comparison with your installed version is done on your device). This communication is read-only; your information such as measurements and patterns you create is not sent. During the connection, standard network information such as your IP address is processed by Google's servers. For details, see Google's Privacy Policy (https://policies.google.com/privacy ) and Firebase Privacy and Security (https://firebase.google.com/support/privacy ).
 
-本應用程式會從本方管理的 Google Cloud Firestore（Firebase）讀取額外的服裝範本（紙型設計資料）。此通訊僅為讀取，不會傳送尺寸或您建立的紙型等使用者資訊。通訊時，IP 位址等一般通訊資訊會由 Google 的伺服器處理。詳情請參閱 Google 隱私權政策（https://policies.google.com/privacy ）及 Firebase 隱私權與安全性說明（https://firebase.google.com/support/privacy ）。
+本應用程式會從本方管理的 Google Cloud Firestore（Firebase）讀取額外的服裝範本（紙型設計資料）。此外，為確認是否有新版本，也會從同一個 Firestore 讀取最新版本編號等設定（與已安裝版本的比較在您的裝置上進行）。此通訊僅為讀取，不會傳送尺寸或您建立的紙型等使用者資訊。通訊時，IP 位址等一般通訊資訊會由 Google 的伺服器處理。詳情請參閱 Google 隱私權政策（https://policies.google.com/privacy ）及 Firebase 隱私權與安全性說明（https://firebase.google.com/support/privacy ）。
 
-본 앱은 당사가 관리하는 Google Cloud Firestore(Firebase)에서 추가 의상 템플릿(옷본 설계 데이터)을 불러옵니다. 이 통신은 읽기 전용이며, 치수나 작성한 옷본 등 이용자의 정보는 전송하지 않습니다. 통신 시 IP 주소 등 일반적인 통신 정보가 Google 서버에서 처리됩니다. 자세한 내용은 Google 개인정보처리방침(https://policies.google.com/privacy ) 및 Firebase 개인정보 보호 및 보안(https://firebase.google.com/support/privacy )을 참고해 주세요.
+본 앱은 당사가 관리하는 Google Cloud Firestore(Firebase)에서 추가 의상 템플릿(옷본 설계 데이터)을 불러옵니다. 또한 새 버전이 있는지 확인하기 위해 최신 버전 번호 등의 설정을 같은 Firestore에서 불러옵니다(설치된 버전과의 비교는 기기 안에서 이루어집니다). 이 통신은 읽기 전용이며, 치수나 작성한 옷본 등 이용자의 정보는 전송하지 않습니다. 통신 시 IP 주소 등 일반적인 통신 정보가 Google 서버에서 처리됩니다. 자세한 내용은 Google 개인정보처리방침(https://policies.google.com/privacy ) 및 Firebase 개인정보 보호 및 보안(https://firebase.google.com/support/privacy )을 참고해 주세요.
 
 ### 2-2. 型紙 PDF の印刷・共有 / Printing and sharing pattern PDFs / 紙型 PDF 的列印與分享 / 옷본 PDF 인쇄·공유
 
