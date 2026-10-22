@@ -62,15 +62,15 @@ The App downloads clothing templates (pattern design data: newer versions of the
 
 본 앱은 당사가 관리하는 Google Cloud Firestore(Firebase)에서 의상 템플릿(옷본 설계 데이터: 앱에 들어 있는 의상의 새 버전과 추가 의상)과 새 의상 만들기 화면에서 쓰는 부위 템플릿을 불러옵니다. 또한 새 버전이 있는지 확인하기 위해 최신 버전 번호 등의 설정을 같은 Firestore에서 불러옵니다(설치된 버전과의 비교는 기기 안에서 이루어집니다). 이 통신은 읽기 전용이며, 치수나 작성한 옷본 등 이용자의 정보는 전송하지 않습니다. 통신 시 IP 주소 등 일반적인 통신 정보가 Google 서버에서 처리됩니다. 자세한 내용은 Google 개인정보처리방침(https://policies.google.com/privacy ) 및 Firebase 개인정보 보호 및 보안(https://firebase.google.com/support/privacy )을 참고해 주세요.
 
-### 2-2. 型紙 PDF の印刷・共有 / Printing and sharing pattern PDFs / 紙型 PDF 的列印與分享 / 옷본 PDF 인쇄·공유
+### 2-2. 型紙 PDF の印刷・共有、服のファイルの書き出し・読み込み / Printing and sharing pattern PDFs, exporting and importing outfit files / 紙型 PDF 的列印與分享、服裝檔案的匯出與匯入 / 옷본 PDF 인쇄·공유, 의상 파일 내보내기·가져오기
 
-型紙 PDF の印刷・共有は、端末の OS の印刷機能・共有機能を通じて行います。PDF の送り先（プリンター、アプリ、保存先など）は利用者自身が選び、当方には送信されません。送り先での取扱いは、各サービスの規約・ポリシーに従います。
+型紙 PDF の印刷・共有は、端末の OS の印刷機能・共有機能を通じて行います。PDF の送り先（プリンター、アプリ、保存先など）は利用者自身が選び、当方には送信されません。送り先での取扱いは、各サービスの規約・ポリシーに従います。自作の服のファイルの書き出しも同じく端末の共有機能で行い、読み込みは利用者が選んだファイルを端末の中で読むだけです。どちらも当方には送信されません。
 
-Pattern PDFs are printed or shared through your device's built-in print and share features. You choose where the PDF goes (a printer, an app, a storage location, etc.), and it is not sent to us. How it is handled there is governed by that service's terms and policies.
+Pattern PDFs are printed or shared through your device's built-in print and share features. You choose where the PDF goes (a printer, an app, a storage location, etc.), and it is not sent to us. How it is handled there is governed by that service's terms and policies. Exporting your own outfit files also uses your device's share feature, and importing only reads the file you choose on your device. Neither is sent to us.
 
-紙型 PDF 的列印與分享，是透過裝置作業系統內建的列印及分享功能進行。PDF 的傳送對象（印表機、App、儲存位置等）由您自行選擇，不會傳送給本方。傳送對象如何處理該檔案，依各服務的條款與政策而定。
+紙型 PDF 的列印與分享，是透過裝置作業系統內建的列印及分享功能進行。PDF 的傳送對象（印表機、App、儲存位置等）由您自行選擇，不會傳送給本方。傳送對象如何處理該檔案，依各服務的條款與政策而定。匯出自製服裝的檔案同樣透過裝置的分享功能進行，匯入則只會在您的裝置上讀取您選擇的檔案。兩者都不會傳送給本方。
 
-옷본 PDF의 인쇄·공유는 기기 OS의 인쇄 기능·공유 기능을 통해 이루어집니다. PDF를 보낼 곳(프린터, 앱, 저장 위치 등)은 이용자가 직접 선택하며, 당사로는 전송되지 않습니다. 보낸 곳에서의 취급은 각 서비스의 약관·정책을 따릅니다.
+옷본 PDF의 인쇄·공유는 기기 OS의 인쇄 기능·공유 기능을 통해 이루어집니다. PDF를 보낼 곳(프린터, 앱, 저장 위치 등)은 이용자가 직접 선택하며, 당사로는 전송되지 않습니다. 보낸 곳에서의 취급은 각 서비스의 약관·정책을 따릅니다. 직접 만든 의상 파일의 내보내기도 기기의 공유 기능으로 이루어지며, 가져오기는 이용자가 선택한 파일을 기기 안에서 읽기만 합니다. 어느 쪽도 당사로 전송되지 않습니다.
 
 ## 3. 広告・解析・課金 / Ads, analytics and purchases / 廣告、分析與付費 / 광고·분석·결제
 
