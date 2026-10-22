@@ -108,7 +108,7 @@ Ads in the App are served through Google AdMob **mediation**, and AdMob may also
 
 | 広告ネットワーク / Ad network | プライバシーポリシー / Privacy policy |
 |---|---|
-| LINEヤフー広告ネットワーク（FIVE） / LY Corporation | https://www.lycorp.co.jp/ja/company/privacypolicy/ |
+| LY Ads Network（LINEヤフー広告ネットワーク） / LY Corporation | https://www.lycorp.co.jp/ja/company/privacypolicy/ |
 | Unity Ads | https://unity.com/legal/game-player-and-app-user-privacy-policy |
 | Pangle | https://www.pangleglobal.com/privacy |
 | Meta Audience Network | https://www.facebook.com/about/privacy/ |
