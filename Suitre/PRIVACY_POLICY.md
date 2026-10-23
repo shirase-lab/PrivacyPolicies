@@ -1,6 +1,6 @@
 # プライバシーポリシー（スイトレ！） / Privacy Policy (Suitre!) / 隱私權政策（Suitre!） / 개인정보처리방침 (Suitre!)
 
-最終更新日 / Last updated / 最後更新日期 / 최종 업데이트: 2026-10-15
+最終更新日 / Last updated / 最後更新日期 / 최종 업데이트: 2026-10-23
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -47,6 +47,7 @@ Information is sent to third-party services only for the features listed below.
 ### 1. 広告（Google AdMob ＋ メディエーション） / Advertising (Google AdMob + mediation) / 廣告（Google AdMob + 中介服務） / 광고(Google AdMob + 미디에이션)
 本アプリはバナー・インタースティシャル・リワード広告の表示に Google AdMob を利用します。AdMob は広告配信・不正防止・測定のため、**広告識別子（Advertising ID）や端末・利用に関する情報**を収集することがあります。
 また、広告の最適化のため **AdMob メディエーション**を利用し、Google 以外の広告ネットワーク（**LINEヤフー広告ネットワーク（FIVE）、Unity Ads** 等）を経由して広告を配信する場合があります。これらのネットワークも、それぞれのポリシーに基づき広告識別子や端末・利用に関する情報を収集することがあります。配信に利用するネットワークは、運用に応じて追加・変更されることがあります。
+欧州経済領域（EEA）・英国など同意が必要な地域では、起動時に広告に関する同意の画面を表示し、選択に従って広告を配信します。選択は設定の「プライバシー設定」からいつでも変更できます。iOS では起動時に App Tracking Transparency でトラッキングの許可を求めます。許可しない場合、広告識別子（IDFA）は広告ネットワークに提供されません（許可しなくても本アプリはすべての機能を利用できます）。
 - Google 広告およびプライバシー: https://policies.google.com/technologies/ads
 - Google プライバシーポリシー: https://policies.google.com/privacy
 - LINEヤフー プライバシーポリシー: https://www.lycorp.co.jp/ja/company/privacypolicy/
@@ -54,6 +55,7 @@ Information is sent to third-party services only for the features listed below.
 
 The App uses Google AdMob to display banner, interstitial, and rewarded ads. AdMob may collect **the advertising ID (Advertising ID) and information about your device and usage** for ad delivery, fraud prevention, and measurement.
 In addition, to optimize ads, the App uses **AdMob mediation** and may deliver ads through ad networks other than Google (such as **the LINEヤフー (LY Corporation) ad network (FIVE) and Unity Ads**). These networks may also collect the advertising ID and information about your device and usage in accordance with their respective policies. The networks used for ad delivery may be added or changed depending on operations.
+In regions where consent is required, such as the European Economic Area (EEA) and the UK, the App shows an ad consent screen at launch and delivers ads according to your choice. You can change your choice at any time from "Privacy settings" in Settings. On iOS, the App asks for permission to track via App Tracking Transparency at launch. If you do not allow it, the advertising identifier (IDFA) is not provided to ad networks (all features of the App remain available even if you do not allow it).
 - Google Ads and privacy: https://policies.google.com/technologies/ads
 - Google Privacy Policy: https://policies.google.com/privacy
 - LINEヤフー (LY Corporation) Privacy Policy: https://www.lycorp.co.jp/ja/company/privacypolicy/
@@ -61,6 +63,7 @@ In addition, to optimize ads, the App uses **AdMob mediation** and may deliver a
 
 本應用程式使用 Google AdMob 顯示橫幅廣告、插頁式廣告及獎勵廣告。AdMob 可能為了廣告投放、防止詐欺及成效評估，蒐集**廣告識別碼（Advertising ID）以及與裝置和使用情形相關的資訊**。
 此外，為了最佳化廣告，本應用程式使用 **AdMob 中介服務**，並可能透過 Google 以外的廣告聯播網（**LINEヤフー（LY Corporation）廣告聯播網（FIVE）、Unity Ads** 等）投放廣告。這些聯播網也可能依其各自的政策，蒐集廣告識別碼以及與裝置和使用情形相關的資訊。用於投放的聯播網可能視營運情況而新增或變更。
+在歐洲經濟區（EEA）、英國等需要取得同意的地區，本應用程式會在啟動時顯示廣告同意畫面，並依您的選擇投放廣告。您可隨時在設定的「隱私設定」中變更選擇。在 iOS 上，本應用程式會在啟動時透過 App Tracking Transparency 請求追蹤許可。若您不允許，廣告識別碼（IDFA）不會提供給廣告聯播網（即使不允許，仍可使用本應用程式的所有功能）。
 - Google 廣告與隱私權: https://policies.google.com/technologies/ads
 - Google 隱私權政策: https://policies.google.com/privacy
 - LINEヤフー（LY Corporation）隱私權政策: https://www.lycorp.co.jp/ja/company/privacypolicy/
@@ -68,6 +71,7 @@ In addition, to optimize ads, the App uses **AdMob mediation** and may deliver a
 
 본 앱은 배너 광고, 전면 광고, 보상형 광고의 표시에 Google AdMob을 이용합니다. AdMob은 광고 게재, 부정 행위 방지 및 측정을 위해 **광고 식별자(Advertising ID) 및 기기·이용에 관한 정보**를 수집할 수 있습니다.
 또한 광고 최적화를 위해 **AdMob 미디에이션**을 이용하며, Google 이외의 광고 네트워크(**LINEヤフー(LY Corporation) 광고 네트워크(FIVE), Unity Ads** 등)를 통해 광고를 게재하는 경우가 있습니다. 이러한 네트워크도 각자의 정책에 따라 광고 식별자 및 기기·이용에 관한 정보를 수집할 수 있습니다. 게재에 이용하는 네트워크는 운영 상황에 따라 추가·변경될 수 있습니다.
+유럽 경제 지역(EEA)·영국 등 동의가 필요한 지역에서는 실행 시 광고 관련 동의 화면을 표시하고, 선택에 따라 광고를 게재합니다. 선택은 설정의 「개인정보 설정」에서 언제든지 변경할 수 있습니다. iOS에서는 실행 시 App Tracking Transparency로 추적 허용을 요청합니다. 허용하지 않으면 광고 식별자(IDFA)는 광고 네트워크에 제공되지 않습니다(허용하지 않아도 본 앱의 모든 기능을 이용할 수 있습니다).
 - Google 광고 및 개인정보 보호: https://policies.google.com/technologies/ads
 - Google 개인정보처리방침: https://policies.google.com/privacy
 - LINEヤフー(LY Corporation) 개인정보처리방침: https://www.lycorp.co.jp/ja/company/privacypolicy/
@@ -83,16 +87,16 @@ The App uses Firebase Remote Config to fetch settings such as ad display frequen
 광고 표시 빈도 등의 설정을 가져오기 위해 Firebase Remote Config를 이용합니다. 설정값을 가져올 때 **Firebase Installations ID(앱 인스턴스를 식별하는 익명 ID)**가 Google로 전송됩니다. 설정값을 가져오는 용도로만 사용하며, 육성 데이터 등 개인을 식별할 수 있는 정보는 전송하지 않습니다.
 
 ### 3. アプリの利用状況の分析（Firebase Analytics） / Usage analytics (Firebase Analytics) / 應用程式使用情形分析（Firebase Analytics） / 앱 이용 현황 분석(Firebase Analytics)
-アプリの改善のため Google の Firebase Analytics を利用します。アプリの起動・利用時間・画面の利用などの**利用状況の統計**と、**アプリインスタンスID、端末の種類・OS・言語・おおよその地域**、および**広告識別子（Advertising ID）**が Google に送信されることがあります。登録したやることの内容・育成の記録・名前など、本アプリに入力した内容は送信しません。個人を特定する目的では使用しません。
+アプリの改善のため Google の Firebase Analytics を利用します。アプリの起動・利用時間・画面の利用などの**利用状況の統計**と、**アプリインスタンスID、端末の種類・OS・言語・おおよその地域**、および**広告識別子（Advertising ID）**が Google に送信されることがあります。登録したやることの内容・育成の記録・名前など、本アプリに入力した内容は送信しません。個人を特定する目的では使用しません。統計の収集は、起動時の広告の同意の画面のあとに始めます（同意が必要な地域では、同意した場合のみ収集します）。
 - Firebase のプライバシーとセキュリティ: https://firebase.google.com/support/privacy
 
-To improve the App, we use Google's Firebase Analytics. **Usage statistics**, such as app launches, usage time, and screen usage, as well as the **app instance ID, device type, OS, language, approximate region**, and the **advertising ID (Advertising ID)**, may be sent to Google. Content you enter into the App, such as the details of your registered to-dos, growth records, and names, is not sent. This information is not used for the purpose of identifying individuals.
+To improve the App, we use Google's Firebase Analytics. **Usage statistics**, such as app launches, usage time, and screen usage, as well as the **app instance ID, device type, OS, language, approximate region**, and the **advertising ID (Advertising ID)**, may be sent to Google. Content you enter into the App, such as the details of your registered to-dos, growth records, and names, is not sent. This information is not used for the purpose of identifying individuals. Collection starts after the ad consent screen at launch (in regions where consent is required, data is collected only if you consent).
 - Privacy and Security in Firebase: https://firebase.google.com/support/privacy
 
-為了改善本應用程式，我們使用 Google 的 Firebase Analytics。應用程式啟動、使用時間、畫面使用等**使用情形統計**，以及**應用程式執行個體 ID、裝置類型、作業系統、語言、大致地區**及**廣告識別碼（Advertising ID）**可能會傳送至 Google。登錄的待辦項目內容、培育紀錄、名稱等您在本應用程式中輸入的內容不會傳送。此等資訊不會用於識別個人身分。
+為了改善本應用程式，我們使用 Google 的 Firebase Analytics。應用程式啟動、使用時間、畫面使用等**使用情形統計**，以及**應用程式執行個體 ID、裝置類型、作業系統、語言、大致地區**及**廣告識別碼（Advertising ID）**可能會傳送至 Google。登錄的待辦項目內容、培育紀錄、名稱等您在本應用程式中輸入的內容不會傳送。此等資訊不會用於識別個人身分。統計資料會在啟動時的廣告同意畫面之後才開始蒐集（在需要取得同意的地區，僅於您同意時蒐集）。
 - Firebase 隱私權與安全性: https://firebase.google.com/support/privacy
 
-앱 개선을 위해 Google의 Firebase Analytics를 이용합니다. 앱 실행, 이용 시간, 화면 이용 등의 **이용 현황 통계**와 **앱 인스턴스 ID, 기기 종류, OS, 언어, 대략적인 지역** 및 **광고 식별자(Advertising ID)**가 Google로 전송될 수 있습니다. 등록한 할 일의 내용, 육성 기록, 이름 등 본 앱에 입력한 내용은 전송하지 않습니다. 개인을 식별할 목적으로는 사용하지 않습니다.
+앱 개선을 위해 Google의 Firebase Analytics를 이용합니다. 앱 실행, 이용 시간, 화면 이용 등의 **이용 현황 통계**와 **앱 인스턴스 ID, 기기 종류, OS, 언어, 대략적인 지역** 및 **광고 식별자(Advertising ID)**가 Google로 전송될 수 있습니다. 등록한 할 일의 내용, 육성 기록, 이름 등 본 앱에 입력한 내용은 전송하지 않습니다. 개인을 식별할 목적으로는 사용하지 않습니다. 통계 수집은 실행 시 광고 동의 화면 이후에 시작합니다(동의가 필요한 지역에서는 동의한 경우에만 수집합니다).
 - Firebase의 개인정보 보호 및 보안: https://firebase.google.com/support/privacy
 
 ### 4. 動画の検索（任意機能） / Video search (optional feature) / 影片搜尋（選用功能） / 동영상 검색(선택 기능)
