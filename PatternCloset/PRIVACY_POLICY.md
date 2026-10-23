@@ -1,6 +1,6 @@
 # プライバシーポリシー（パタクロ！） / Privacy Policy (Pattern Closet) / 隱私權政策（Pattern Closet） / 개인정보 처리방침（Pattern Closet）
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-22**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-23**
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -183,4 +183,5 @@ We may update this Policy as needed. We will notify you of significant changes b
 ## 8. お問い合わせ / Contact / 聯絡方式 / 문의
 
 - 提供者 / Provider / 提供者 / 제공자: Shirase Lab
+- メール / Email / 電子郵件 / 이메일: pataclo@shirase-lab.com
 - お問い合わせ / Contact / 聯絡我們 / 문의: https://www.shirase-lab.com/inquiry-form/
