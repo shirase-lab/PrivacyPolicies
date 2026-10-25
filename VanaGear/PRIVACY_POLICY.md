@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy / 隱私權政策 / 개인정보 처리방침
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-20**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-25**
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -162,19 +162,27 @@ To improve the App, we use Google Analytics for Firebase to measure usage. Data 
 ### 1-8. 写真からの装備の読み取り / Reading gear from photos (Google ML Kit / Apple Vision) / 從照片讀取裝備（Google ML Kit / Apple Vision）/ 사진에서 장비 읽기 (Google ML Kit / Apple Vision)
 「写真から探す」を使うと、選んだ写真、カメラの映像、またはほかのアプリから「共有」で渡された画像から装備名を読み取ります。そのためにカメラ・写真へのアクセスを求めます。文字の読み取りは Android では Google ML Kit、iOS では Apple の Vision（iOS に標準で入っている機能）で**端末の中だけで行い、写真・カメラの映像や読み取った文字をサーバーへ送信・保存することはありません。**なお Android の ML Kit は、診断と利用状況の分析のため、端末の情報（メーカー・機種・OS）、アプリのパッケージ名とバージョン、処理時間などの性能情報、画像の形式・解像度などの設定情報を Google に送信します（画像の中身は含みません）。
 
-装備セットの「QRを読み取る」でも、カメラまたは選んだ画像から QR を読み取ります。読み取りは端末の中だけで行い（Android は Google ML Kit、iOS は Apple の Vision）、画像や QR の中身をサーバーへ送信・保存することはありません。QR に入るのは装備セットの中身（ジョブ・名前・装備・オーグメント）だけで、アカウントなどの個人情報は含みません。QR と同じ中身を当方のウェブサイトのリンク（`https://www.shirase-lab.com/vanagear/set#…`）でも共有できます。リンクの「#」より後ろ（装備セットの中身）はブラウザの外へ送られないため、当方のサーバーには届きません。
+装備セットの「QRを読み取る」でも、カメラまたは選んだ画像から QR を読み取ります。読み取りは端末の中だけで行い（Android は Google ML Kit、iOS は Apple の Vision）、画像や QR の中身をサーバーへ送信・保存することはありません。QR に入るのは装備セットの中身（ジョブ・名前・装備・オーグメント）と、シミュレーターの計算を共有したときはその条件（ジョブ・サポート・レベル・ジョブポイント・メリットポイント・食事・敵・バフ・計算対象）だけで、アカウントなどの個人情報は含みません。QR と同じ中身を当方のウェブサイトのリンク（`https://www.shirase-lab.com/vanagear/set#…`）でも共有できます。
+
+**共有の短いリンク：** 共有の画面で QR・リンクを作ると、リンクと QR を短くするため、共有する中身（上記の装備・条件）を当方のサーバー（Google Firebase の Cloud Firestore）に保存し、リンクにはその中身を指す短い ID だけを入れます（`https://www.shirase-lab.com/vanagear/set#s=…`）。保存した中身は**リンクを知っている人なら誰でも読めます**。誰が作ったか（アカウントや識別子）は保存しません。保存した中身は**作成から1年で自動的に削除**されます。通信できないときは短いリンクを作らず、中身を含んだリンクを使います（この場合、リンクの「#」より後ろはブラウザの外へ送られないため、当方のサーバーには届きません）。
 
 When you use "Find from photo", the App reads gear names from the photo you choose, the camera view, or an image shared from another app, and asks for access to your camera and photos for that purpose. Text recognition is done **on your device only** by Google ML Kit on Android and by Apple Vision (built into iOS) on iOS; **photos, camera video and recognized text are never sent to or stored on a server.** For diagnostics and usage analytics, ML Kit on Android sends Google device information (manufacturer, model, OS), the app package name and version, performance metrics such as processing time, and configuration such as image format and resolution (not the image content).
 
-The "Scan QR" feature on the gear set screen also reads a QR code from the camera or an image you choose. This is done on your device only (Google ML Kit on Android, Apple Vision on iOS); images and QR contents are never sent to or stored on a server. A QR code contains only the gear set (job, name, gear and augments), not your account or other personal information. The same contents can also be shared as a link to our website (`https://www.shirase-lab.com/vanagear/set#…`). The part after "#" (the gear set) is not sent by the browser, so it never reaches our server.
+The "Scan QR" feature on the gear set screen also reads a QR code from the camera or an image you choose. This is done on your device only (Google ML Kit on Android, Apple Vision on iOS); images and QR contents are never sent to or stored on a server. A QR code contains only the gear set (job, name, gear and augments) and, when you share a simulator calculation, its conditions (job, support job, level, job points, merit points, food, enemy, buffs and the calculation), not your account or other personal information. The same contents can also be shared as a link to our website (`https://www.shirase-lab.com/vanagear/set#…`).
+
+**Short share links:** When you create a QR code or link on the share screen, to keep the link and QR code short, the shared contents (the gear and conditions above) are stored on our server (Google Firebase Cloud Firestore) and the link only contains a short ID pointing to them (`https://www.shirase-lab.com/vanagear/set#s=…`). **Anyone who has the link can read the stored contents.** We do not store who created it (no account or identifier). Stored contents are **automatically deleted one year after creation**. If the App cannot connect, no short link is created and a link containing the contents is used instead (in that case the part after "#" is not sent by the browser, so it never reaches our server).
 
 使用「從照片尋找」時，本應用程式會從您選擇的照片、相機畫面，或從其他應用程式「分享」過來的圖片讀取裝備名稱，為此會要求存取相機與照片。文字辨識在 Android 上由 Google ML Kit、在 iOS 上由 Apple Vision（iOS 內建功能）**僅在裝置內進行，照片、相機影像及辨識出的文字不會傳送或儲存至伺服器。**此外，Android 上的 ML Kit 為診斷與使用狀況分析，會將裝置資訊（製造商、機型、作業系統）、應用程式的套件名稱與版本、處理時間等效能資訊，以及影像格式、解析度等設定資訊傳送給 Google（不含影像內容）。
 
-裝備組合畫面的「讀取QR」也會從相機或您選擇的圖片讀取QR碼。讀取僅在裝置內進行（Android為Google ML Kit，iOS為Apple Vision），圖片及QR碼內容不會傳送或儲存至伺服器。QR碼只包含裝備組合的內容（職業、名稱、裝備、附加屬性），不含帳號等個人資訊。與QR碼相同的內容，亦可透過本方網站的連結（`https://www.shirase-lab.com/vanagear/set#…`）分享。連結中「#」之後的部分（裝備組合的內容）不會由瀏覽器傳送，因此不會送達本方的伺服器。
+裝備組合畫面的「讀取QR」也會從相機或您選擇的圖片讀取QR碼。讀取僅在裝置內進行（Android為Google ML Kit，iOS為Apple Vision），圖片及QR碼內容不會傳送或儲存至伺服器。QR碼只包含裝備組合的內容（職業、名稱、裝備、附加屬性），以及分享模擬器計算時的條件（職業、副職業、等級、職業點數、功績點數、料理、敵人、增益效果、計算對象），不含帳號等個人資訊。與QR碼相同的內容，亦可透過本方網站的連結（`https://www.shirase-lab.com/vanagear/set#…`）分享。
+
+**分享用短連結：** 在分享畫面建立QR碼或連結時，為縮短連結與QR碼，會將分享的內容（上述裝備與條件）儲存於本方伺服器（Google Firebase 的 Cloud Firestore），連結中只放入指向該內容的短ID（`https://www.shirase-lab.com/vanagear/set#s=…`）。**任何知道該連結的人都能讀取所儲存的內容。**本方不儲存建立者（不含帳號或識別碼）。儲存的內容會在**建立1年後自動刪除**。無法連線時不建立短連結，改用包含內容的連結（此時連結中「#」之後的部分不會由瀏覽器傳送，因此不會送達本方的伺服器）。
 
 「사진에서 찾기」를 사용하면 선택한 사진, 카메라 화면 또는 다른 앱에서 「공유」로 받은 이미지에서 장비 이름을 읽습니다. 이를 위해 카메라·사진 접근 권한을 요청합니다. 문자 인식은 Android에서는 Google ML Kit, iOS에서는 Apple Vision(iOS 기본 기능)으로 **기기 내에서만 처리하며, 사진·카메라 영상이나 인식한 문자를 서버로 전송하거나 저장하지 않습니다.** 또한 Android의 ML Kit는 진단 및 이용 현황 분석을 위해 기기 정보(제조사·모델·OS), 앱 패키지 이름과 버전, 처리 시간 등의 성능 정보, 이미지 형식·해상도 등의 설정 정보를 Google에 전송합니다(이미지 내용은 포함하지 않음).
 
-장비 세트 화면의 「QR 읽기」에서도 카메라 또는 선택한 이미지에서 QR을 읽습니다. 읽기는 기기 내에서만 처리하며(Android는 Google ML Kit, iOS는 Apple Vision), 이미지나 QR 내용을 서버로 전송하거나 저장하지 않습니다. QR에는 장비 세트 내용(직업·이름·장비·오그멘트)만 들어가며 계정 등 개인 정보는 포함하지 않습니다. QR과 같은 내용을 당사 웹사이트의 링크(`https://www.shirase-lab.com/vanagear/set#…`)로도 공유할 수 있습니다. 링크의 "#" 뒤의 부분(장비 세트 내용)은 브라우저 밖으로 전송되지 않으므로 당사 서버에 전달되지 않습니다.
+장비 세트 화면의 「QR 읽기」에서도 카메라 또는 선택한 이미지에서 QR을 읽습니다. 읽기는 기기 내에서만 처리하며(Android는 Google ML Kit, iOS는 Apple Vision), 이미지나 QR 내용을 서버로 전송하거나 저장하지 않습니다. QR에는 장비 세트 내용(직업·이름·장비·오그멘트)과, 시뮬레이터 계산을 공유한 경우 그 조건(직업·서포트 직업·레벨·잡 포인트·메리트 포인트·음식·적·버프·계산 대상)만 들어가며 계정 등 개인 정보는 포함하지 않습니다. QR과 같은 내용을 당사 웹사이트의 링크(`https://www.shirase-lab.com/vanagear/set#…`)로도 공유할 수 있습니다.
+
+**공유용 짧은 링크:** 공유 화면에서 QR·링크를 만들면 링크와 QR을 짧게 하기 위해 공유하는 내용(위의 장비·조건)을 당사 서버(Google Firebase의 Cloud Firestore)에 저장하고, 링크에는 그 내용을 가리키는 짧은 ID만 넣습니다(`https://www.shirase-lab.com/vanagear/set#s=…`). 저장된 내용은 **링크를 아는 사람이라면 누구나 읽을 수 있습니다.** 누가 만들었는지(계정이나 식별자)는 저장하지 않습니다. 저장된 내용은 **작성 후 1년이 지나면 자동으로 삭제**됩니다. 통신할 수 없을 때는 짧은 링크를 만들지 않고 내용을 포함한 링크를 사용합니다(이 경우 링크의 "#" 뒤의 부분은 브라우저 밖으로 전송되지 않으므로 당사 서버에 전달되지 않습니다).
 
 ---
 
@@ -280,24 +288,28 @@ You can disable personalized ads in device settings.
 ## 5. 保存期間と削除 / Retention and Deletion / 保存期間與刪除 / 보존 기간 및 삭제
 - 端末内データ：本アプリのアンインストールで削除されます。
 - みんなの装備・みんなの敵の投稿：アプリ内でいつでも自分の投稿を削除できます。
+- 共有の短いリンクの中身：作成から1年で自動的に削除されます。
 - 修正依頼・不具合の報告・承認：アプリ内では削除できません。削除をご希望の場合は下記の手引きに沿ってご連絡ください。
 - アカウントの削除：本アプリ内の「設定」からいつでも削除できます。詳細は[アカウント・データ削除の手引き](./ACCOUNT_DELETION.md)をご覧ください。
 - その他、全データの削除：上記の手引きに沿ってご連絡ください（リクエストから30日以内に削除）。
 
 - On-device data: removed when you uninstall the App.
 - Community Gear and Community Enemies posts: you can delete your own posts anytime in the App.
+- Contents of short share links: automatically deleted one year after creation.
 - Correction requests, bug reports and approvals: these cannot be deleted in the App. To have them deleted, contact us as described in the guide below.
 - Account deletion: you can delete your account anytime from Settings in the App. See [Account & Data Deletion](./ACCOUNT_DELETION.md).
 - Full data deletion: contact us as described in that guide (deleted within 30 days of request).
 
 - 裝置內資料：解除安裝本應用程式後即刪除。
 - 「大家的裝備」與「大家的敵人」的投稿：您可隨時於應用程式內刪除自己的投稿。
+- 分享用短連結的內容：建立1年後自動刪除。
 - 修正請求、錯誤回報與核准：無法於應用程式內刪除。如希望刪除，請依下述指南與本方聯絡。
 - 帳號刪除：可隨時從本應用程式內的「設定」刪除。詳情請參閱[帳號與資料刪除指南](./ACCOUNT_DELETION.md)。
 - 其他、刪除全部資料：請依上述指南與本方聯絡（自提出請求起 30 日內刪除）。
 
 - 기기 내 데이터: 본 앱을 제거(언인스톨)하면 삭제됩니다.
 - "모두의 장비"·"모두의 적" 게시물: 앱 내에서 언제든지 본인의 게시물을 삭제할 수 있습니다.
+- 공유용 짧은 링크의 내용: 작성 후 1년이 지나면 자동으로 삭제됩니다.
 - 수정 요청·오류 보고·승인: 앱 내에서는 삭제할 수 없습니다. 삭제를 원하시는 경우 아래 안내에 따라 연락해 주십시오.
 - 계정 삭제: 본 앱 내 "설정"에서 언제든지 삭제할 수 있습니다. 자세한 내용은 [계정·데이터 삭제 안내](./ACCOUNT_DELETION.md)를 참조하십시오.
 - 기타 전체 데이터 삭제: 위 안내에 따라 연락해 주십시오(요청일로부터 30일 이내에 삭제).
