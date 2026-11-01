@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy / 隱私權政策 / 개인정보 처리방침
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-25**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-11-01**
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -150,6 +150,14 @@ Firebase Remote Config is used to fetch configuration values and contains no per
 
 앱 동작 설정값을 가져오기 위해 Firebase Remote Config를 이용합니다. 개인을 특정할 수 있는 정보는 포함되지 않습니다.
 
+アプリの更新なしで装備・計算用のデータを新しくするため、起動時などに当方のサーバー（Google Firebase Hosting）からデータのファイルを取得します。取得の際、通信に必要な情報（IP アドレス・端末/OS の種類など）が Google に送られますが、当方はこれを利用者の識別に使わず、個人を特定する情報や装備データの内容は送信しません。
+
+To update gear and calculation data without an app update, the App downloads data files from our server (Google Firebase Hosting), for example at launch. Information needed for the connection (such as IP address and device/OS type) is sent to Google in the process; we do not use it to identify you, and no personally identifiable information or contents of your gear data are sent.
+
+為了在不更新應用程式的情況下更新裝備與計算用的資料，本應用程式會在啟動時等時機，從本方伺服器（Google Firebase Hosting）取得資料檔案。取得時，通訊所需的資訊（IP 位址、裝置／作業系統類型等）會傳送給 Google，但本方不會將其用於識別使用者，也不會傳送可識別個人身分的資訊或裝備資料的內容。
+
+앱을 업데이트하지 않고 장비·계산용 데이터를 갱신하기 위해, 앱 실행 시 등에 당사 서버(Google Firebase Hosting)에서 데이터 파일을 가져옵니다. 이때 통신에 필요한 정보(IP 주소, 기기/OS 종류 등)가 Google로 전송되지만, 당사는 이를 이용자 식별에 사용하지 않으며 개인을 특정할 수 있는 정보나 장비 데이터의 내용은 전송하지 않습니다.
+
 ### 1-7. 利用状況の分析 / Usage analytics (Google Analytics for Firebase) / 使用狀況分析（Google Analytics for Firebase）/ 이용 현황 분석 (Google Analytics for Firebase)
 アプリの改善のため、Google Analytics for Firebase で利用状況を集計します。送信されるのは、アプリの起動・利用時間・画面の利用状況、端末の種類・OS・アプリのバージョン、おおよその地域（国・地域）、アプリ用のインスタンス ID、アプリ内購入（寄付）の記録（商品・価格）などです。**氏名・メールアドレス・装備データの内容は送信しません。**集計結果は個人を特定しない統計として利用します。
 
@@ -226,7 +234,7 @@ The "Scan QR" feature on the gear set screen also reads a QR code from the camer
 The App uses the following services, governed by their respective policies:
 本應用程式使用下列服務。各公司對資訊的處理依其各自的政策。
 본 앱은 다음 서비스를 이용합니다. 각 사의 취급은 각 사의 방침에 따릅니다.
-- Firebase Authentication / Cloud Firestore / Remote Config / Google Analytics for Firebase — https://firebase.google.com/support/privacy
+- Firebase Authentication / Cloud Firestore / Remote Config / Hosting / Google Analytics for Firebase — https://firebase.google.com/support/privacy
 - Google AdMob（**メディエーション**経由で下記「3-1」の広告ネットワークへも配信を委託）— https://policies.google.com/technologies/ads
 - Google Play Billing（Android）— https://policies.google.com/privacy
 - Google ML Kit（Android：写真からの装備名の読み取り / reading gear from photos on Android）— https://developers.google.com/ml-kit/android-data-disclosure
