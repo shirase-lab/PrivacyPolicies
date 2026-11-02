@@ -51,15 +51,19 @@ You can delete your account at any time from Settings in the App.
 ### 1-3. みんなの装備（公開データ）/ Community Gear (public data) / 大家的裝備（公開資料）/ 모두의 장비 (공개 데이터)
 利用者が投稿した場合、以下がサーバー（Google Cloud Firestore）に保存され、**他の利用者に公開表示**されます。氏名・メールアドレスは含まれません。
 - ジョブ、セット名、装備の構成、タグ、投稿日時、投稿者の匿名識別子（UID）
+- 今の装備や、そのジョブの装備セットを投稿したときは、計算に使うキャラクターの情報（種族・サポートジョブ・レベル・マスターレベル・ジョブポイント・メリットポイント・ナレッジランク・ユニティランク・応援・使っている青魔法セット・オートマトン）。キャラクター名は含みません。
 
 When you post, the following is stored on the server (Google Cloud Firestore) and is **publicly visible to other users**. Your name and email are not included:
 - Job, set name, gear configuration, tags, timestamp, and an anonymous poster ID (UID).
+- When you post your current gear or a set for your current job, the character information used for calculation (race, support job, level, master level, job points, merit points, knowledge rank, unity rank, cheer, and the Blue Magic set and automaton in use). Your character name is not included.
 
 使用者投稿時，下列資訊將儲存於伺服器（Google Cloud Firestore），並**公開顯示給其他使用者**。其中不包含姓名及電子郵件地址。
 - 職業、組合名稱、裝備配置、標籤、投稿日期時間、投稿者的匿名識別碼（UID）
+- 投稿目前裝備或該職業的裝備組合時，計算用的角色資訊（種族、副職業、等級、大師等級、職業點數、功績點數、知識等級、聯合排名、應援、使用中的青魔法組合與自動人偶）。不含角色名稱。
 
 이용자가 게시한 경우, 다음 정보가 서버(Google Cloud Firestore)에 저장되며 **다른 이용자에게 공개 표시**됩니다. 이름·이메일 주소는 포함되지 않습니다.
 - 잡, 세트명, 장비 구성, 태그, 게시 일시, 게시자의 익명 식별자(UID)
+- 현재 장비나 그 직업의 장비 세트를 게시한 경우, 계산에 쓰는 캐릭터 정보(종족·서포트 직업·레벨·마스터 레벨·잡 포인트·메리트 포인트·날리지 랭크·유니티 랭크·응원·사용 중인 청마법 세트·오토마톤). 캐릭터 이름은 포함하지 않습니다.
 
 また、みんなの装備でタグ検索をしたとき、人気タグの集計のため**検索したタグと回数のみ**をサーバーに送信します。誰が検索したかは記録しません。
 
