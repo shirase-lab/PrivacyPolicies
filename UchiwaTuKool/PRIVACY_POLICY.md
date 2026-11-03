@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy / 隱私權政策 / 개인정보 처리방침
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-15**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-11-03**
 
 *本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。 / This document is authoritative in Japanese; the English, Chinese and Korean versions are reference translations. In case of any discrepancy, the Japanese version prevails. / 本文件以日文版為正本，英文、中文及韓文版均為參考譯文。各版本內容如有歧異，以日文版為準。 / 본 문서는 일본어판을 정본으로 하며, 영어·중국어·한국어판은 참고용 번역본입니다. 내용에 차이가 있는 경우 일본어판이 우선합니다.*
 
@@ -141,6 +141,36 @@ The "Feedback" item in Settings opens our feedback form (a Google Form) at `oshi
 設定畫面中的「意見與建議」，會以**裝置的外部瀏覽器**開啟本方網站 `oshimite.jp/feedback/` 的**意見表單（Google 表單）**（不使用 App 內瀏覽器＝本App本身不會取得或傳送輸入內容）。在表單中，除建議內容外，**僅希望收到回覆者可任意填寫電子郵件地址**（**填寫為任意**，留白亦可送出，此時將作為匿名意見受理）。電子郵件地址並非自 Google 帳戶自動取得，**僅於使用者自行填寫時**取得。所填寫的內容由本方透過 Google 接收，**僅用於回覆您的建議及改善本App**。未經本人同意，不會提供予第三方。保存期間**僅限處理所需的期間**，不再需要時將儘速刪除。如希望刪除，請與文末的聯絡窗口（`uchiwa.tu.kool@gmail.com`）聯繫。表單說明中已提醒使用者，請勿在建議內容中填寫可識別個人的資訊（姓名、社群網站 ID 等）。表單的營運使用 Google LLC 提供的 Google 表單，輸入內容將儲存於該公司的伺服器。於 Google 表單輸入及送出時，適用 Google 的隱私權政策。
 
 설정 화면의 '의견·요청'은 **기기의 외부 브라우저**에서 운영자 사이트 `oshimite.jp/feedback/`의 **요청 양식(Google 설문지)을** 엽니다(앱 내 브라우저는 사용하지 않습니다 = 앱 자체가 입력 내용을 수집·전송하는 일은 없습니다). 양식에서는 요청 본문 외에 **답변을 원하시는 분에 한해 선택적으로 이메일 주소**를 입력하실 수 있습니다(**입력은 선택 사항**이며, 빈칸으로 두어도 제출할 수 있고, 그 경우 익명 의견으로 접수합니다). 이메일 주소는 Google 계정에서 자동으로 가져오지 않으며, **본인이 직접 입력한 경우에만** 수집합니다. 입력하신 내용은 Google을 통해 운영자가 수령하며, **요청에 대한 답변 및 앱 개선을 위해서만 이용**합니다. 본인의 동의 없이 제3자에게 제공하지 않습니다. 보관 기간은 **처리에 필요한 기간만**으로 하며, 필요 없게 된 시점에 신속히 삭제합니다. 삭제를 원하시는 경우 본 방침 끝의 문의처(`uchiwa.tu.kool@gmail.com`)로 연락해 주십시오. 양식의 안내문에서는 요청 본문에 개인을 특정할 수 있는 정보(이름·SNS ID 등)를 기재하지 않도록 안내하고 있습니다. 양식 운영에는 Google LLC가 제공하는 Google 설문지를 이용하며, 입력 내용은 같은 회사의 서버에 저장됩니다. Google 설문지에서의 입력·제출에는 Google의 개인정보처리방침이 적용됩니다.
+
+### 1-1-12. 公演アルバム（参戦記録）/ Live album (attendance record) / 公演相簿（參戰紀錄） / 공연 앨범(참전 기록)
+
+本アプリの「公演アルバム」機能では、利用者が登録した**公演名・日付・会場・メモ**と、**紐付けたうちわのサムネイル画像**を**端末内にのみ保存**します（アプリの書類フォルダ `album/`）。当方サーバを含む外部へ**送信されません**。アルバムの「シェア画像」も**端末内で生成**し、OS の共有シートに渡すだけで、当方が内容を取得することはありません（共有先のアプリ・SNS には各社のプライバシーポリシーが適用されます）。アプリを削除するとこれらのデータも端末から削除されます。
+
+The "live album" feature stores the **event name, date, venue, notes**, and **thumbnails of the uchiwa you link to it** **only on your device** (in the app's documents folder, `album/`). Nothing is sent to our servers or any external server. The album's **share image is generated on your device** and simply handed to the OS share sheet; we never receive its contents (the privacy policy of whichever app or social network you share to then applies). Deleting the App removes this data from your device.
+
+本App的「公演相簿」功能，會將使用者登錄的**公演名稱、日期、場館、備註**以及**所連結應援扇的縮圖**，**僅儲存於裝置內**（App 的文件資料夾 `album/`）。**不會傳送**至包含本方伺服器在內的任何外部伺服器。相簿的「分享圖片」亦**於裝置內產生**，僅交由作業系統的分享選單處理，本方不會取得其內容（分享目的地的 App 或社群網站，適用各該公司的隱私權政策）。刪除本App後，這些資料亦會自裝置中刪除。
+
+앱의 '공연 앨범' 기능은 이용자가 등록한 **공연명·날짜·공연장·메모**와 **연결한 우치와의 썸네일 이미지**를 **기기 내에만 저장**합니다(앱의 문서 폴더 `album/`). 운영자 서버를 포함한 외부로 **전송되지 않습니다**. 앨범의 '공유 이미지'도 **기기 내에서 생성**되어 OS의 공유 시트로 전달될 뿐이며, 운영자가 그 내용을 수집하지 않습니다(공유 대상 앱·SNS에는 각 회사의 개인정보처리방침이 적용됩니다). 앱을 삭제하면 이러한 데이터도 기기에서 삭제됩니다.
+
+### 1-1-13. ホーム画面ウィジェット「次の参戦」/ Home screen widget ("next live") / 主畫面小工具「下一場參戰」 / 홈 화면 위젯 '다음 참전'
+
+ホーム画面ウィジェットを表示するため、**次の参戦予定の名称（登録時のメモ）と残り日数**を、OS がウィジェットから読める端末内の共有保存領域（iOS は App Group、Android はウィジェット用の設定領域）に**書き出します**。これも**端末内のみ**で、外部へ送信されません。⚠ **ウィジェットを置くと、登録した公演名がホーム画面（ロック画面に置いた場合はロック画面）に表示されます**ので、人に見られたくない内容を登録している場合はウィジェットを設置しないでください。ウィジェットを削除すれば表示されなくなります。
+
+To render the home screen widget, the App **writes the name of your next registered event (the note you entered) and the number of days remaining** to on-device shared storage that the OS can read from the widget (an App Group on iOS; the widget's preference area on Android). This also stays **on your device** and is not transmitted anywhere. ⚠ **If you place the widget, the registered event name becomes visible on your home screen (or lock screen, if placed there)** — do not install the widget if you have registered something you would rather others not see. Removing the widget stops the display.
+
+為顯示主畫面小工具，本App會將**下一場參戰預定的名稱（登錄時的備註）及剩餘天數**，**寫入**作業系統可供小工具讀取的裝置內共用儲存區（iOS 為 App Group，Android 為小工具用的設定區）。此資料同樣**僅存在於裝置內**，不會傳送至外部。⚠ **放置小工具後，所登錄的公演名稱會顯示於主畫面（若放置於鎖定畫面，則顯示於鎖定畫面）**，如登錄了不希望他人看到的內容，請勿設置小工具。移除小工具後即不再顯示。
+
+홈 화면 위젯을 표시하기 위해, 앱은 **다음 참전 예정의 이름(등록 시 메모)과 남은 일수**를 OS가 위젯에서 읽을 수 있는 기기 내 공유 저장 영역(iOS는 App Group, Android는 위젯용 설정 영역)에 **기록합니다**. 이 역시 **기기 내에만** 있으며 외부로 전송되지 않습니다. ⚠ **위젯을 배치하면 등록한 공연명이 홈 화면(잠금 화면에 배치한 경우 잠금 화면)에 표시되므로**, 다른 사람에게 보이고 싶지 않은 내용을 등록한 경우에는 위젯을 설치하지 마십시오. 위젯을 삭제하면 더 이상 표시되지 않습니다.
+
+### 1-1-14. 切り文字用データの書き出し（型紙 PDF / SVG / DXF）/ Exporting cut-letter data (stencil PDF, SVG, DXF) / 匯出切割文字用資料（紙型 PDF / SVG / DXF） / 커팅 문자용 데이터 내보내기(도안 PDF / SVG / DXF)
+
+「切り文字の型紙」機能で作る**型紙 PDF・カットデータ（SVG / DXF）**は、すべて**端末内で生成**され、利用者が選んだ保存先へ保存するか OS の共有シートに渡されます。**当方サーバへの送信・保管は行いません**。書き出したファイルを他のアプリ（カッティングマシンのソフト等）へ渡した後の取扱いは、各アプリ・サービスのプライバシーポリシーに従います。
+
+The **stencil PDF and cutting data (SVG / DXF)** produced by the "cut-letter template" feature are generated **entirely on your device** and either saved to a location you choose or handed to the OS share sheet. **Nothing is sent to or stored on our servers.** Once you pass an exported file to another app (such as cutting machine software), that app's or service's own privacy policy applies.
+
+以「切割文字紙型」功能製作的**紙型 PDF 及切割資料（SVG / DXF）**，全部**於裝置內產生**，並儲存至使用者選擇的位置，或交由作業系統的分享選單處理。**本方不會將其傳送至伺服器或加以保存**。將匯出的檔案交給其他 App（切割機軟體等）後的處理方式，依各該 App 或服務的隱私權政策辦理。
+
+'커팅 문자 도안' 기능으로 만드는 **도안 PDF·커팅 데이터(SVG / DXF)**는 모두 **기기 내에서 생성**되며, 이용자가 선택한 저장 위치에 저장되거나 OS의 공유 시트로 전달됩니다. **운영자 서버로 전송하거나 보관하지 않습니다**. 내보낸 파일을 다른 앱(커팅 머신 소프트웨어 등)에 넘긴 이후의 취급은 각 앱·서비스의 개인정보처리방침을 따릅니다.
 
 ### 1-2. 自動的に取得される情報 / Automatically collected / 自動收集的資訊 / 자동으로 수집되는 정보
 - 広告 ID (Android: AAID / iOS: IDFA。利用者が許可した場合のみ)

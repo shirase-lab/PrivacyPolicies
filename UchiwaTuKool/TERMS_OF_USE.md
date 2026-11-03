@@ -1,6 +1,6 @@
 # 利用規約 / Terms of Use / 使用條款 / 이용약관
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-15**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-11-03**
 
 *本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。 / This document is authoritative in Japanese; the English, Chinese and Korean versions are reference translations. In case of any discrepancy, the Japanese version prevails. / 本文件以日文版為正本，英文、中文及韓文版均為參考譯文。各版本內容如有歧異，以日文版為準。 / 본 문서는 일본어판을 정본으로 하며, 영어·중국어·한국어판은 참고용 번역본입니다. 내용에 차이가 있는 경우 일본어판이 우선합니다.*
 
@@ -117,6 +117,16 @@ When you share a timelapse video created with the recording feature (e.g., to so
 
 '녹화(타임랩스)' 기능으로 작성한 제작 과정 영상을 SNS 등에 공유하는 경우에도, 영상에 담긴 문자·이미지·디자인에 관한 **저작권·상표권·초상권·퍼블리시티권·프라이버시는 이용자 자신의 책임**입니다. 필요한 마스킹(얼굴·개인정보·제3자의 권리물 가림)은 **이용자가 하는** 것으로 하며, 운영자는 공유된 영상에 대하여 일체의 책임을 지지 않습니다.
 
+### 4-2-2. 公演アルバムのシェア画像 / Sharing live album images / 分享公演相簿圖片 / 공연 앨범 공유 이미지
+
+「公演アルバム」で作成したシェア画像（公演名・日付・会場とうちわ画像をまとめた 1 枚）を SNS 等へ共有する場合も、**4-2-1 と同様に利用者自身の責任**となります。とくに**公演名・会場・日付は参戦の記録**であり、共有すると自身の行動履歴を公開することになる点にご留意ください。共有の可否・範囲は利用者が判断するものとし、当方は共有された画像について一切の責任を負いません。
+
+When you share a live-album image (a single image combining the event name, date, venue, and your uchiwa) to social media or elsewhere, you remain **solely responsible**, just as in 4-2-1. Note in particular that **the event name, venue, and date are a record of where you went**, so sharing them discloses your own whereabouts. Deciding whether and how widely to share is up to you, and we bear no responsibility for shared images.
+
+將以「公演相簿」製作的分享圖片（彙整公演名稱、日期、場館及應援扇圖片的一張圖）分享至社群網站等時，亦**與 4-2-1 相同，屬使用者本人的責任**。特別請留意，**公演名稱、場館及日期即為參戰紀錄**，分享後等同公開自身的行動紀錄。是否分享及分享範圍由使用者自行判斷，本方對於已分享的圖片不負任何責任。
+
+'공연 앨범'에서 작성한 공유 이미지(공연명·날짜·공연장과 우치와 이미지를 한 장으로 정리한 것)를 SNS 등에 공유하는 경우에도 **4-2-1과 마찬가지로 이용자 자신의 책임**입니다. 특히 **공연명·공연장·날짜는 참전 기록**이므로, 공유하면 자신의 행동 이력을 공개하게 된다는 점에 유의하십시오. 공유 여부와 범위는 이용자가 판단하는 것으로 하며, 운영자는 공유된 이미지에 대하여 일체의 책임을 지지 않습니다.
+
 ### 4-3. 利用者の表明保証 / Representations / 使用者的聲明與保證 / 이용자의 진술 및 보증
 利用者は、ユーザコンテンツについて必要な権利・許諾を有していることを表明し保証します。
 
@@ -231,6 +241,7 @@ The App may display ads via third-party networks (e.g., Google AdMob). We are no
 
 - 家庭用プリンタ・コンビニ印刷・印刷業者ごとの **色再現・解像度・仕上がり品質**
 - 各メーカー公式うちわ（ジャンボ・カンペボード等）との **完全な寸法一致**
+- 「切り文字の型紙」で出力した**型紙 PDF・カットデータ（SVG / DXF）**の、各カッティングマシン・各ソフトウェアでの**読み込み可否・実寸の再現**（単位の解釈はソフトごとに異なります。**切る前に必ず読み込み後の寸法をご確認ください**）
 - 会場・イベント主催者の規定（サイズ、内容、持込制限）への適合
 
 実際の印刷物・現場での適合性は **利用者ご自身で確認** ください。
