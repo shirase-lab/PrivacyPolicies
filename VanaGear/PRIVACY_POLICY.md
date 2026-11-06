@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy / 隱私權政策 / 개인정보 처리방침
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-11-02**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-11-06**
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -91,22 +91,22 @@ For likes on Community Gear, **only the like count** is sent to the server. We d
 
 #### みんなの敵 / Community Enemies / 大家的敵人 / 모두의 적
 利用者が敵を投稿した場合、以下がサーバー（Google Cloud Firestore）に保存され、**他の利用者に公開表示**されます。氏名・メールアドレスは含まれません。
-- 敵の名前、レベル・防御力などのステータス、耐性、投稿日時、投稿者の匿名識別子（UID）、「自分の敵に追加」された回数
+- 敵の名前、レベル・防御力などのステータス、耐性、生息地（エリア）・種族、投稿日時、投稿者の匿名識別子（UID）、「自分の敵に追加」された回数
 
 ほかの利用者が投稿した敵を「自分の敵に追加」したときは、**追加された回数のみ**をサーバーに送信します。誰が追加したかは記録しません。
 
 When you post an enemy, the following is stored on the server (Google Cloud Firestore) and is **publicly visible to other users**. Your name and email are not included:
-- Enemy name, stats such as level and defense, resistances, timestamp, an anonymous poster ID (UID), and how many times it was added by others.
+- Enemy name, stats such as level and defense, resistances, habitat (area) and family, timestamp, an anonymous poster ID (UID), and how many times it was added by others.
 
 When you add an enemy posted by someone else to your own enemies, **only the add count** is sent to the server. We do not record who added it.
 
 使用者投稿敵人時，下列資訊將儲存於伺服器（Google Cloud Firestore），並**公開顯示給其他使用者**。其中不包含姓名及電子郵件地址。
-- 敵人名稱、等級與防禦力等能力值、抗性、投稿日期時間、投稿者的匿名識別碼（UID）、被「加入自己的敵人」的次數
+- 敵人名稱、等級與防禦力等能力值、抗性、棲息地（區域）與種族、投稿日期時間、投稿者的匿名識別碼（UID）、被「加入自己的敵人」的次數
 
 將其他使用者投稿的敵人「加入自己的敵人」時，**僅會將加入次數**傳送至伺服器。本方不會記錄加入者的身分。
 
 이용자가 적을 게시한 경우, 다음 정보가 서버(Google Cloud Firestore)에 저장되며 **다른 이용자에게 공개 표시**됩니다. 이름·이메일 주소는 포함되지 않습니다.
-- 적 이름, 레벨·방어력 등의 능력치, 내성, 게시 일시, 게시자의 익명 식별자(UID), "내 적에 추가"된 횟수
+- 적 이름, 레벨·방어력 등의 능력치, 내성, 서식지(지역)·종족, 게시 일시, 게시자의 익명 식별자(UID), "내 적에 추가"된 횟수
 
 다른 이용자가 게시한 적을 "내 적에 추가"할 때는 **추가된 횟수만** 서버로 전송합니다. 누가 추가했는지는 기록하지 않습니다.
 
