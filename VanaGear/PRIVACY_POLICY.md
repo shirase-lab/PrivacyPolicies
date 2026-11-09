@@ -1,6 +1,6 @@
 # プライバシーポリシー / Privacy Policy / 隱私權政策 / 개인정보 처리방침
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-11-06**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-11-09**
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -113,18 +113,22 @@ When you add an enemy posted by someone else to your own enemies, **only the add
 #### 修正依頼・不具合の報告 / Correction requests and bug reports / 修正請求與錯誤回報 / 수정 요청·오류 보고
 装備・オーグメント・敵のデータの修正依頼、およびアプリの「修正・バグ報告依頼」を送った場合、以下がサーバー（Google Cloud Firestore）に保存されます。データを確かめるため、**他の利用者も見られる状態**で保存します。本文に個人情報を書かないでください。
 - 対象（装備・敵など）、項目、今の値、正しい値・内容（自由に書いた文章を含む）、出典、送信日時、送信者の匿名識別子（UID）
+- アプリの「修正・バグ報告依頼」では、不具合を調べるために、端末の OS とその版、アプリの版を自動で付けます（例「Android 16・アプリ 2.5.1」。端末の機種名などは付けません）
 - 修正依頼を「承認」した場合は、承認した利用者の匿名識別子（UID）と日時
 
 When you send a correction request for gear, augment or enemy data, or use "Report issue / bug" in the App, the following is stored on the server (Google Cloud Firestore). So the data can be verified, it is stored so that **other users can also see it**. Please do not include personal information in the text:
 - The target (gear, enemy, etc.), field, current value, proposed value or content (including free text you write), source, timestamp, and an anonymous sender ID (UID).
+- With "Report issue / bug" in the App, your device's OS and its version and the App version are attached automatically to help investigate the issue (e.g. "Android 16 / App 2.5.1"; the device model is not included).
 - When you "approve" a correction request, the approving user's anonymous ID (UID) and the time.
 
 傳送裝備、附加屬性或敵人資料的修正請求，以及使用應用程式的「修正・錯誤回報」時，下列資訊將儲存於伺服器（Google Cloud Firestore）。為了確認資料，將以**其他使用者亦可查看的狀態**儲存。請勿於內文中填寫個人資訊。
 - 對象（裝備、敵人等）、項目、目前的值、正確的值或內容（包含您自由填寫的文字）、出處、傳送日期時間、傳送者的匿名識別碼（UID）
+- 使用應用程式的「修正・錯誤回報」時，為了調查問題，會自動附上裝置的作業系統及其版本與應用程式的版本（例：「Android 16・應用程式 2.5.1」。不會附上裝置型號等資訊）
 - 「核准」修正請求時，核准者的匿名識別碼（UID）及日期時間
 
 장비·오그멘트·적 데이터의 수정 요청 및 앱의 "수정·버그 보고 요청"을 보낸 경우, 다음 정보가 서버(Google Cloud Firestore)에 저장됩니다. 데이터 확인을 위해 **다른 이용자도 볼 수 있는 상태**로 저장합니다. 본문에 개인 정보를 적지 마십시오.
 - 대상(장비·적 등), 항목, 현재 값, 올바른 값·내용(자유롭게 작성한 문장 포함), 출처, 전송 일시, 전송자의 익명 식별자(UID)
+- 앱의 "수정·버그 보고 요청"에서는 문제를 조사하기 위해 기기의 OS와 그 버전, 앱 버전을 자동으로 첨부합니다(예: "Android 16·앱 2.5.1". 기기 모델명 등은 첨부하지 않습니다).
 - 수정 요청을 "승인"한 경우, 승인한 이용자의 익명 식별자(UID)와 일시
 
 ### 1-4. 広告 / Advertising (Google AdMob) / 廣告（Google AdMob）/ 광고 (Google AdMob)
