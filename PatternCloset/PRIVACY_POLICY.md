@@ -1,6 +1,6 @@
 # プライバシーポリシー（パタクロ！） / Privacy Policy (Pattern Closet) / 隱私權政策（Pattern Closet） / 개인정보 처리방침（Pattern Closet）
 
-**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-10-23**
+**最終更新日 / Last updated / 最後更新 / 최종 수정일: 2026-11-20**
 
 本書は日本語版を正本とし、英語・中国語・韓国語版は参考訳です。内容に相違がある場合は日本語版が優先します。
 
@@ -132,13 +132,13 @@ To improve the App, we use Google Analytics for Firebase to send Google the scre
 
 ### 3-4. 課金 / Purchases / 付費 / 결제
 
-現在の本アプリには、アプリ内課金の機能はありません。導入する場合は、事前に本ポリシーを改定します。
+本アプリでは、一部の服の型紙（印刷・PDF の共有）をアプリ内課金（買い切り）で販売しています。支払いは App Store（Apple）または Google Play（Google）が行い、当方はクレジットカードなどの支払いの情報を受け取りません。本アプリは、購入した商品の ID を端末内に保存し、購入の確認・復元のために、端末のストア（App Store・Google Play）から購入の記録を読みます。当方のサーバーへ購入の記録を送ることはありません。支払いの情報の取扱いは各社のポリシーに従います: https://www.apple.com/legal/privacy/ ・ https://policies.google.com/privacy
 
-The App currently has no in-app purchases. If we introduce them, we will update this Policy beforehand.
+The App sells some outfit patterns (printing and sharing as PDF) as in-app purchases (one-time purchases). Payment is handled by the App Store (Apple) or Google Play (Google); we do not receive your credit card or other payment information. The App stores the IDs of the products you bought on your device, and reads your purchase records from your device's store (App Store or Google Play) to confirm and restore purchases. Purchase records are not sent to our servers. Payment information is handled under each company's policy: https://www.apple.com/legal/privacy/ ・ https://policies.google.com/privacy
 
-目前本應用程式沒有 App 內購買功能。若日後導入，將事先修訂本政策。
+本應用程式以 App 內購買（一次性購買）販售部分服裝的紙型（列印與以 PDF 分享）。付款由 App Store（Apple）或 Google Play（Google）處理，本方不會收到信用卡等付款資訊。本應用程式會將已購買商品的 ID 儲存在您的裝置中，並為了確認與恢復購買，從裝置的商店（App Store、Google Play）讀取購買紀錄。購買紀錄不會傳送到本方的伺服器。付款資訊依各公司的政策處理：https://www.apple.com/legal/privacy/ ・ https://policies.google.com/privacy
 
-현재 본 앱에는 앱 내 결제 기능이 없습니다. 도입하는 경우 사전에 본 방침을 개정합니다.
+본 앱은 일부 의상의 옷본(인쇄·PDF 공유)을 앱 내 결제(한 번만 결제)로 판매합니다. 결제는 App Store(Apple) 또는 Google Play(Google)가 처리하며, 당사는 신용카드 등의 결제 정보를 받지 않습니다. 본 앱은 구매한 상품의 ID를 기기 안에 저장하고, 구매 확인·복원을 위해 기기의 스토어(App Store·Google Play)에서 구매 기록을 읽습니다. 구매 기록을 당사 서버로 보내지 않습니다. 결제 정보는 각 회사의 정책에 따라 취급됩니다: https://www.apple.com/legal/privacy/ ・ https://policies.google.com/privacy
 
 ## 4. 端末の権限 / Device permissions / 裝置權限 / 기기 권한
 
@@ -162,13 +162,13 @@ The App shows ads, and ad companies may use device information (Section 3). User
 
 ## 6. データの削除 / Deleting your data / 刪除資料 / 데이터 삭제
 
-本アプリのデータは端末内にのみあるため、保存した採寸値や型紙はアプリ内で削除できるほか、本アプリをアンインストールするとすべて削除されます。当方のサーバーに利用者のデータはないため、当方への削除依頼は不要です。広告の会社に送られた情報は、各社のポリシーに従って扱われます。広告 ID は端末の設定でリセット・制限できます（Android: 設定 → Google → 広告、iOS: 設定 → プライバシーとセキュリティ → トラッキング）。
+本アプリのデータは端末内にのみあるため、保存した採寸値や型紙はアプリ内で削除できるほか、本アプリをアンインストールするとすべて削除されます（アプリ内課金の購入はストアのアカウントに残り、「購入を復元」で戻せます）。当方のサーバーに利用者のデータはないため、当方への削除依頼は不要です。広告の会社に送られた情報は、各社のポリシーに従って扱われます。広告 ID は端末の設定でリセット・制限できます（Android: 設定 → Google → 広告、iOS: 設定 → プライバシーとセキュリティ → トラッキング）。
 
-Because all App data is stored only on your device, you can delete saved measurements and patterns in the App, and uninstalling the App deletes everything. We hold no user data on our servers, so no deletion request to us is needed. Information sent to ad companies is handled under their policies. You can reset or limit your advertising ID in your device settings (Android: Settings → Google → Ads; iOS: Settings → Privacy & Security → Tracking).
+Because all App data is stored only on your device, you can delete saved measurements and patterns in the App, and uninstalling the App deletes everything (in-app purchases remain with your store account and can be restored with "Restore purchases"). We hold no user data on our servers, so no deletion request to us is needed. Information sent to ad companies is handled under their policies. You can reset or limit your advertising ID in your device settings (Android: Settings → Google → Ads; iOS: Settings → Privacy & Security → Tracking).
 
-由於本應用程式的資料只存在您的裝置中，您可以在 App 內刪除已儲存的尺寸與紙型，解除安裝本應用程式時也會全部刪除。本方的伺服器上沒有任何使用者資料，因此無須向本方申請刪除。傳送給廣告公司的資訊依各公司的政策處理。您可以在裝置設定中重設或限制廣告 ID（Android：設定 → Google → 廣告；iOS：設定 → 隱私權與安全性 → 追蹤）。
+由於本應用程式的資料只存在您的裝置中，您可以在 App 內刪除已儲存的尺寸與紙型，解除安裝本應用程式時也會全部刪除（App 內購買會保留在您的商店帳號中，可用「恢復購買」找回）。本方的伺服器上沒有任何使用者資料，因此無須向本方申請刪除。傳送給廣告公司的資訊依各公司的政策處理。您可以在裝置設定中重設或限制廣告 ID（Android：設定 → Google → 廣告；iOS：設定 → 隱私權與安全性 → 追蹤）。
 
-본 앱의 데이터는 기기 안에만 있으므로, 저장한 치수와 옷본은 앱 안에서 삭제할 수 있으며 본 앱을 삭제(제거)하면 모두 삭제됩니다. 당사 서버에는 이용자의 데이터가 없으므로 당사에 삭제를 요청하실 필요가 없습니다. 광고 회사에 전송된 정보는 각 회사의 정책에 따라 취급됩니다. 광고 ID는 기기 설정에서 재설정하거나 제한할 수 있습니다(Android: 설정 → Google → 광고, iOS: 설정 → 개인정보 보호 및 보안 → 추적).
+본 앱의 데이터는 기기 안에만 있으므로, 저장한 치수와 옷본은 앱 안에서 삭제할 수 있으며 본 앱을 삭제(제거)하면 모두 삭제됩니다(앱 내 결제로 구매한 내역은 스토어 계정에 남아 있으며 「구매 복원」으로 되돌릴 수 있습니다). 당사 서버에는 이용자의 데이터가 없으므로 당사에 삭제를 요청하실 필요가 없습니다. 광고 회사에 전송된 정보는 각 회사의 정책에 따라 취급됩니다. 광고 ID는 기기 설정에서 재설정하거나 제한할 수 있습니다(Android: 설정 → Google → 광고, iOS: 설정 → 개인정보 보호 및 보안 → 추적).
 
 ## 7. 本ポリシーの変更 / Changes to this Policy / 本政策的變更 / 본 방침의 변경
 
